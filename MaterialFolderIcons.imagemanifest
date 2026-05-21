@@ -1,0 +1,4223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImageManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
+  <Symbols>
+    <String Name="Resources" Value="/MaterialFolderIcons.VisualStudio;Component/generatedimagespng" />
+    <Guid Name="MaterialFolderIconsGuid" Value="{8A6726D6-8BE8-47F4-B1E1-96C198CD21F7}" />
+    <ID Name="Folder_acf" Value="1" />
+    <ID Name="Folder_acre" Value="2" />
+    <ID Name="Folder_adapter" Value="3" />
+    <ID Name="Folder_addon" Value="4" />
+    <ID Name="Folder_admin" Value="5" />
+    <ID Name="Folder_adr" Value="6" />
+    <ID Name="Folder_agda" Value="7" />
+    <ID Name="Folder_ai" Value="8" />
+    <ID Name="Folder_airflow" Value="9" />
+    <ID Name="Folder_alacritty" Value="10" />
+    <ID Name="Folder_amplication" Value="11" />
+    <ID Name="Folder_android" Value="12" />
+    <ID Name="Folder_angular" Value="13" />
+    <ID Name="Folder_animations" Value="14" />
+    <ID Name="Folder_ansible" Value="15" />
+    <ID Name="Folder_api" Value="16" />
+    <ID Name="Folder_apollo" Value="17" />
+    <ID Name="Folder_app" Value="18" />
+    <ID Name="Folder_appstore" Value="19" />
+    <ID Name="Folder_appwrite" Value="20" />
+    <ID Name="Folder_archetype" Value="21" />
+    <ID Name="Folder_archive" Value="22" />
+    <ID Name="Folder_article" Value="23" />
+    <ID Name="Folder_arttext" Value="24" />
+    <ID Name="Folder_assembly" Value="25" />
+    <ID Name="Folder_astro" Value="26" />
+    <ID Name="Folder_atom" Value="27" />
+    <ID Name="Folder_audio" Value="28" />
+    <ID Name="Folder_aurelia" Value="29" />
+    <ID Name="Folder_automator" Value="30" />
+    <ID Name="Folder_aws" Value="31" />
+    <ID Name="Folder_azure_devops" Value="32" />
+    <ID Name="Folder_azure_pipelines" Value="33" />
+    <ID Name="Folder_base" Value="34" />
+    <ID Name="Folder_bazaar" Value="35" />
+    <ID Name="Folder_benchmark" Value="36" />
+    <ID Name="Folder_bicep" Value="37" />
+    <ID Name="Folder_bitcoin" Value="38" />
+    <ID Name="Folder_bloc" Value="39" />
+    <ID Name="Folder_blueprint" Value="40" />
+    <ID Name="Folder_bot" Value="41" />
+    <ID Name="Folder_bower" Value="42" />
+    <ID Name="Folder_buildkite" Value="43" />
+    <ID Name="Folder_cabal" Value="44" />
+    <ID Name="Folder_cake" Value="45" />
+    <ID Name="Folder_cart" Value="46" />
+    <ID Name="Folder_channels" Value="47" />
+    <ID Name="Folder_charts" Value="48" />
+    <ID Name="Folder_chef" Value="49" />
+    <ID Name="Folder_ci" Value="50" />
+    <ID Name="Folder_circleci" Value="51" />
+    <ID Name="Folder_class" Value="52" />
+    <ID Name="Folder_client" Value="53" />
+    <ID Name="Folder_cluster" Value="54" />
+    <ID Name="Folder_cmake" Value="55" />
+    <ID Name="Folder_cnab" Value="56" />
+    <ID Name="Folder_cobol" Value="57" />
+    <ID Name="Folder_codesandbox" Value="58" />
+    <ID Name="Folder_components" Value="59" />
+    <ID Name="Folder_composer" Value="60" />
+    <ID Name="Folder_conductor" Value="61" />
+    <ID Name="Folder_config" Value="62" />
+    <ID Name="Folder_connection" Value="63" />
+    <ID Name="Folder_constants" Value="64" />
+    <ID Name="Folder_container" Value="65" />
+    <ID Name="Folder_content" Value="66" />
+    <ID Name="Folder_contract" Value="67" />
+    <ID Name="Folder_controllers" Value="68" />
+    <ID Name="Folder_core" Value="69" />
+    <ID Name="Folder_coverage" Value="70" />
+    <ID Name="Folder_crates" Value="71" />
+    <ID Name="Folder_cron" Value="72" />
+    <ID Name="Folder_crossplane" Value="73" />
+    <ID Name="Folder_cubit" Value="74" />
+    <ID Name="Folder_cue" Value="75" />
+    <ID Name="Folder_cursor" Value="76" />
+    <ID Name="Folder_custom" Value="77" />
+    <ID Name="Folder_cvs" Value="78" />
+    <ID Name="Folder_cypress" Value="79" />
+    <ID Name="Folder_dapr" Value="80" />
+    <ID Name="Folder_dart" Value="81" />
+    <ID Name="Folder_db" Value="82" />
+    <ID Name="Folder_debian" Value="83" />
+    <ID Name="Folder_debug" Value="84" />
+    <ID Name="Folder_decorators" Value="85" />
+    <ID Name="Folder_default" Value="86" />
+    <ID Name="Folder_delta" Value="87" />
+    <ID Name="Folder_deno" Value="88" />
+    <ID Name="Folder_dependabot" Value="89" />
+    <ID Name="Folder_deploy" Value="90" />
+    <ID Name="Folder_devcontainer" Value="91" />
+    <ID Name="Folder_dist" Value="92" />
+    <ID Name="Folder_docker" Value="93" />
+    <ID Name="Folder_docs" Value="94" />
+    <ID Name="Folder_domain" Value="95" />
+    <ID Name="Folder_download" Value="96" />
+    <ID Name="Folder_drizzle" Value="97" />
+    <ID Name="Folder_dropbox" Value="98" />
+    <ID Name="Folder_dub" Value="99" />
+    <ID Name="Folder_dump" Value="100" />
+    <ID Name="Folder_dvc" Value="101" />
+    <ID Name="Folder_e2e" Value="102" />
+    <ID Name="Folder_elastic" Value="103" />
+    <ID Name="Folder_electron" Value="104" />
+    <ID Name="Folder_elixir" Value="105" />
+    <ID Name="Folder_emacs" Value="106" />
+    <ID Name="Folder_empties" Value="107" />
+    <ID Name="Folder_env" Value="108" />
+    <ID Name="Folder_error" Value="109" />
+    <ID Name="Folder_eslint" Value="110" />
+    <ID Name="Folder_events" Value="111" />
+    <ID Name="Folder_examples" Value="112" />
+    <ID Name="Folder_exclude" Value="113" />
+    <ID Name="Folder_expo" Value="114" />
+    <ID Name="Folder_faq" Value="115" />
+    <ID Name="Folder_fastlane" Value="116" />
+    <ID Name="Folder_favorites" Value="117" />
+    <ID Name="Folder_features" Value="118" />
+    <ID Name="Folder_firebase" Value="119" />
+    <ID Name="Folder_fixtures" Value="120" />
+    <ID Name="Folder_flow" Value="121" />
+    <ID Name="Folder_fluig" Value="122" />
+    <ID Name="Folder_flutter" Value="123" />
+    <ID Name="Folder_folder" Value="124" />
+    <ID Name="Folder_folder_root" Value="125" />
+    <ID Name="Folder_fonts" Value="126" />
+    <ID Name="Folder_functions" Value="127" />
+    <ID Name="Folder_gcloud" Value="128" />
+    <ID Name="Folder_generated" Value="129" />
+    <ID Name="Folder_git" Value="130" />
+    <ID Name="Folder_gitea" Value="131" />
+    <ID Name="Folder_github" Value="132" />
+    <ID Name="Folder_gitlab" Value="133" />
+    <ID Name="Folder_global" Value="134" />
+    <ID Name="Folder_go" Value="135" />
+    <ID Name="Folder_gradle" Value="136" />
+    <ID Name="Folder_graphql" Value="137" />
+    <ID Name="Folder_gritql" Value="138" />
+    <ID Name="Folder_grunt" Value="139" />
+    <ID Name="Folder_guard" Value="140" />
+    <ID Name="Folder_gulp" Value="141" />
+    <ID Name="Folder_hasura" Value="142" />
+    <ID Name="Folder_haxelib" Value="143" />
+    <ID Name="Folder_helm" Value="144" />
+    <ID Name="Folder_helper" Value="145" />
+    <ID Name="Folder_home" Value="146" />
+    <ID Name="Folder_hook" Value="147" />
+    <ID Name="Folder_husky" Value="148" />
+    <ID Name="Folder_i18n" Value="149" />
+    <ID Name="Folder_icons" Value="150" />
+    <ID Name="Folder_idea" Value="151" />
+    <ID Name="Folder_images" Value="152" />
+    <ID Name="Folder_include" Value="153" />
+    <ID Name="Folder_info" Value="154" />
+    <ID Name="Folder_init" Value="155" />
+    <ID Name="Folder_injection" Value="156" />
+    <ID Name="Folder_interceptor" Value="157" />
+    <ID Name="Folder_internal" Value="158" />
+    <ID Name="Folder_ios" Value="159" />
+    <ID Name="Folder_iosapp" Value="160" />
+    <ID Name="Folder_islands" Value="161" />
+    <ID Name="Folder_istanbul" Value="162" />
+    <ID Name="Folder_java" Value="163" />
+    <ID Name="Folder_jest" Value="164" />
+    <ID Name="Folder_jinja" Value="165" />
+    <ID Name="Folder_job" Value="166" />
+    <ID Name="Folder_js" Value="167" />
+    <ID Name="Folder_json" Value="168" />
+    <ID Name="Folder_junie" Value="169" />
+    <ID Name="Folder_jwt" Value="170" />
+    <ID Name="Folder_keys" Value="171" />
+    <ID Name="Folder_kivy" Value="172" />
+    <ID Name="Folder_kotlin" Value="173" />
+    <ID Name="Folder_kubernetes" Value="174" />
+    <ID Name="Folder_kustomize" Value="175" />
+    <ID Name="Folder_layouts" Value="176" />
+    <ID Name="Folder_less" Value="177" />
+    <ID Name="Folder_lib" Value="178" />
+    <ID Name="Folder_linux" Value="179" />
+    <ID Name="Folder_liquibase" Value="180" />
+    <ID Name="Folder_logs" Value="181" />
+    <ID Name="Folder_lottie" Value="182" />
+    <ID Name="Folder_lua" Value="183" />
+    <ID Name="Folder_mac" Value="184" />
+    <ID Name="Folder_mailers" Value="185" />
+    <ID Name="Folder_main" Value="186" />
+    <ID Name="Folder_maps" Value="187" />
+    <ID Name="Folder_markdown" Value="188" />
+    <ID Name="Folder_math" Value="189" />
+    <ID Name="Folder_maven" Value="190" />
+    <ID Name="Folder_mcp" Value="191" />
+    <ID Name="Folder_mercurial" Value="192" />
+    <ID Name="Folder_messages" Value="193" />
+    <ID Name="Folder_meta" Value="194" />
+    <ID Name="Folder_meteor" Value="195" />
+    <ID Name="Folder_metro" Value="196" />
+    <ID Name="Folder_middleware" Value="197" />
+    <ID Name="Folder_mindsdb" Value="198" />
+    <ID Name="Folder_mjml" Value="199" />
+    <ID Name="Folder_mobile" Value="200" />
+    <ID Name="Folder_mocks" Value="201" />
+    <ID Name="Folder_modals" Value="202" />
+    <ID Name="Folder_models" Value="203" />
+    <ID Name="Folder_molecules" Value="204" />
+    <ID Name="Folder_mongo" Value="205" />
+    <ID Name="Folder_moon" Value="206" />
+    <ID Name="Folder_msw" Value="207" />
+    <ID Name="Folder_navigation" Value="208" />
+    <ID Name="Folder_netlify" Value="209" />
+    <ID Name="Folder_next" Value="210" />
+    <ID Name="Folder_node" Value="211" />
+    <ID Name="Folder_notebooks" Value="212" />
+    <ID Name="Folder_notification" Value="213" />
+    <ID Name="Folder_nuget" Value="214" />
+    <ID Name="Folder_nuxt" Value="215" />
+    <ID Name="Folder_nx" Value="216" />
+    <ID Name="Folder_obsidian" Value="217" />
+    <ID Name="Folder_openshift" Value="218" />
+    <ID Name="Folder_orders" Value="219" />
+    <ID Name="Folder_osx" Value="220" />
+    <ID Name="Folder_other" Value="221" />
+    <ID Name="Folder_packages" Value="222" />
+    <ID Name="Folder_parcel" Value="223" />
+    <ID Name="Folder_pdf" Value="224" />
+    <ID Name="Folder_pdm" Value="225" />
+    <ID Name="Folder_perl" Value="226" />
+    <ID Name="Folder_php" Value="227" />
+    <ID Name="Folder_pinia" Value="228" />
+    <ID Name="Folder_pipe" Value="229" />
+    <ID Name="Folder_plastic" Value="230" />
+    <ID Name="Folder_platformio" Value="231" />
+    <ID Name="Folder_playwright" Value="232" />
+    <ID Name="Folder_plugin" Value="233" />
+    <ID Name="Folder_postman" Value="234" />
+    <ID Name="Folder_posts" Value="235" />
+    <ID Name="Folder_prisma" Value="236" />
+    <ID Name="Folder_private" Value="237" />
+    <ID Name="Folder_profiles" Value="238" />
+    <ID Name="Folder_project" Value="239" />
+    <ID Name="Folder_projects" Value="240" />
+    <ID Name="Folder_prompts" Value="241" />
+    <ID Name="Folder_protobuf" Value="242" />
+    <ID Name="Folder_providers" Value="243" />
+    <ID Name="Folder_python" Value="244" />
+    <ID Name="Folder_quantum" Value="245" />
+    <ID Name="Folder_quasar" Value="246" />
+    <ID Name="Folder_queries" Value="247" />
+    <ID Name="Folder_queue" Value="248" />
+    <ID Name="Folder_r" Value="249" />
+    <ID Name="Folder_react" Value="250" />
+    <ID Name="Folder_recoil" Value="251" />
+    <ID Name="Folder_redhat" Value="252" />
+    <ID Name="Folder_redis" Value="253" />
+    <ID Name="Folder_redux" Value="254" />
+    <ID Name="Folder_redux_actions" Value="255" />
+    <ID Name="Folder_redux_epics" Value="256" />
+    <ID Name="Folder_redux_reducers" Value="257" />
+    <ID Name="Folder_redux_sagas" Value="258" />
+    <ID Name="Folder_redux_stores" Value="259" />
+    <ID Name="Folder_redwood" Value="260" />
+    <ID Name="Folder_relay" Value="261" />
+    <ID Name="Folder_resolver" Value="262" />
+    <ID Name="Folder_resource" Value="263" />
+    <ID Name="Folder_reviews" Value="264" />
+    <ID Name="Folder_root" Value="265" />
+    <ID Name="Folder_routes" Value="266" />
+    <ID Name="Folder_ruby" Value="267" />
+    <ID Name="Folder_rules" Value="268" />
+    <ID Name="Folder_rust" Value="269" />
+    <ID Name="Folder_salt" Value="270" />
+    <ID Name="Folder_sass" Value="271" />
+    <ID Name="Folder_scala" Value="272" />
+    <ID Name="Folder_scons" Value="273" />
+    <ID Name="Folder_scratch" Value="274" />
+    <ID Name="Folder_screens" Value="275" />
+    <ID Name="Folder_scripts" Value="276" />
+    <ID Name="Folder_security" Value="277" />
+    <ID Name="Folder_seed" Value="278" />
+    <ID Name="Folder_server" Value="279" />
+    <ID Name="Folder_serverless" Value="280" />
+    <ID Name="Folder_shader" Value="281" />
+    <ID Name="Folder_shared" Value="282" />
+    <ID Name="Folder_skeletons" Value="283" />
+    <ID Name="Folder_skill" Value="284" />
+    <ID Name="Folder_sql" Value="285" />
+    <ID Name="Folder_src" Value="286" />
+    <ID Name="Folder_sso" Value="287" />
+    <ID Name="Folder_sst" Value="288" />
+    <ID Name="Folder_stack" Value="289" />
+    <ID Name="Folder_stencil" Value="290" />
+    <ID Name="Folder_storage" Value="291" />
+    <ID Name="Folder_storyblok" Value="292" />
+    <ID Name="Folder_storybook" Value="293" />
+    <ID Name="Folder_strategy" Value="294" />
+    <ID Name="Folder_styled" Value="295" />
+    <ID Name="Folder_styles" Value="296" />
+    <ID Name="Folder_stylus" Value="297" />
+    <ID Name="Folder_sublime" Value="298" />
+    <ID Name="Folder_supabase" Value="299" />
+    <ID Name="Folder_svelte" Value="300" />
+    <ID Name="Folder_svg" Value="301" />
+    <ID Name="Folder_svn" Value="302" />
+    <ID Name="Folder_swagger" Value="303" />
+    <ID Name="Folder_sync" Value="304" />
+    <ID Name="Folder_syntax" Value="305" />
+    <ID Name="Folder_target" Value="306" />
+    <ID Name="Folder_taskfile" Value="307" />
+    <ID Name="Folder_tasks" Value="308" />
+    <ID Name="Folder_tauri" Value="309" />
+    <ID Name="Folder_tech" Value="310" />
+    <ID Name="Folder_temp" Value="311" />
+    <ID Name="Folder_terraform" Value="312" />
+    <ID Name="Folder_tests" Value="313" />
+    <ID Name="Folder_textmate" Value="314" />
+    <ID Name="Folder_themes" Value="315" />
+    <ID Name="Folder_tools" Value="316" />
+    <ID Name="Folder_totvs" Value="317" />
+    <ID Name="Folder_trait" Value="318" />
+    <ID Name="Folder_trash" Value="319" />
+    <ID Name="Folder_trpc" Value="320" />
+    <ID Name="Folder_ts" Value="321" />
+    <ID Name="Folder_turborepo" Value="322" />
+    <ID Name="Folder_ui" Value="323" />
+    <ID Name="Folder_unity" Value="324" />
+    <ID Name="Folder_upload" Value="325" />
+    <ID Name="Folder_users" Value="326" />
+    <ID Name="Folder_vagrant" Value="327" />
+    <ID Name="Folder_venv" Value="328" />
+    <ID Name="Folder_vercel" Value="329" />
+    <ID Name="Folder_verdaccio" Value="330" />
+    <ID Name="Folder_video" Value="331" />
+    <ID Name="Folder_viewmodel" Value="332" />
+    <ID Name="Folder_views" Value="333" />
+    <ID Name="Folder_vim" Value="334" />
+    <ID Name="Folder_vitepress" Value="335" />
+    <ID Name="Folder_vm" Value="336" />
+    <ID Name="Folder_vs" Value="337" />
+    <ID Name="Folder_vscode" Value="338" />
+    <ID Name="Folder_vue" Value="339" />
+    <ID Name="Folder_vuepress" Value="340" />
+    <ID Name="Folder_vuex" Value="341" />
+    <ID Name="Folder_web" Value="342" />
+    <ID Name="Folder_webcomponents" Value="343" />
+    <ID Name="Folder_webpack" Value="344" />
+    <ID Name="Folder_windows" Value="345" />
+    <ID Name="Folder_wine" Value="346" />
+    <ID Name="Folder_woocommerce" Value="347" />
+    <ID Name="Folder_woodpecker" Value="348" />
+    <ID Name="Folder_wordpress" Value="349" />
+    <ID Name="Folder_xstate" Value="350" />
+    <ID Name="Folder_yarn" Value="351" />
+    <ID Name="FolderOpen_acf" Value="10001" />
+    <ID Name="FolderOpen_acre" Value="10002" />
+    <ID Name="FolderOpen_adapter" Value="10003" />
+    <ID Name="FolderOpen_addon" Value="10004" />
+    <ID Name="FolderOpen_admin" Value="10005" />
+    <ID Name="FolderOpen_adr" Value="10006" />
+    <ID Name="FolderOpen_agda" Value="10007" />
+    <ID Name="FolderOpen_ai" Value="10008" />
+    <ID Name="FolderOpen_airflow" Value="10009" />
+    <ID Name="FolderOpen_alacritty" Value="10010" />
+    <ID Name="FolderOpen_amplication" Value="10011" />
+    <ID Name="FolderOpen_android" Value="10012" />
+    <ID Name="FolderOpen_angular" Value="10013" />
+    <ID Name="FolderOpen_animations" Value="10014" />
+    <ID Name="FolderOpen_ansible" Value="10015" />
+    <ID Name="FolderOpen_api" Value="10016" />
+    <ID Name="FolderOpen_apollo" Value="10017" />
+    <ID Name="FolderOpen_app" Value="10018" />
+    <ID Name="FolderOpen_appstore" Value="10019" />
+    <ID Name="FolderOpen_appwrite" Value="10020" />
+    <ID Name="FolderOpen_archetype" Value="10021" />
+    <ID Name="FolderOpen_archive" Value="10022" />
+    <ID Name="FolderOpen_article" Value="10023" />
+    <ID Name="FolderOpen_arttext" Value="10024" />
+    <ID Name="FolderOpen_assembly" Value="10025" />
+    <ID Name="FolderOpen_astro" Value="10026" />
+    <ID Name="FolderOpen_atom" Value="10027" />
+    <ID Name="FolderOpen_audio" Value="10028" />
+    <ID Name="FolderOpen_aurelia" Value="10029" />
+    <ID Name="FolderOpen_automator" Value="10030" />
+    <ID Name="FolderOpen_aws" Value="10031" />
+    <ID Name="FolderOpen_azure_devops" Value="10032" />
+    <ID Name="FolderOpen_azure_pipelines" Value="10033" />
+    <ID Name="FolderOpen_base" Value="10034" />
+    <ID Name="FolderOpen_bazaar" Value="10035" />
+    <ID Name="FolderOpen_benchmark" Value="10036" />
+    <ID Name="FolderOpen_bicep" Value="10037" />
+    <ID Name="FolderOpen_bitcoin" Value="10038" />
+    <ID Name="FolderOpen_bloc" Value="10039" />
+    <ID Name="FolderOpen_blueprint" Value="10040" />
+    <ID Name="FolderOpen_bot" Value="10041" />
+    <ID Name="FolderOpen_bower" Value="10042" />
+    <ID Name="FolderOpen_buildkite" Value="10043" />
+    <ID Name="FolderOpen_cabal" Value="10044" />
+    <ID Name="FolderOpen_cake" Value="10045" />
+    <ID Name="FolderOpen_cart" Value="10046" />
+    <ID Name="FolderOpen_channels" Value="10047" />
+    <ID Name="FolderOpen_charts" Value="10048" />
+    <ID Name="FolderOpen_chef" Value="10049" />
+    <ID Name="FolderOpen_ci" Value="10050" />
+    <ID Name="FolderOpen_circleci" Value="10051" />
+    <ID Name="FolderOpen_class" Value="10052" />
+    <ID Name="FolderOpen_client" Value="10053" />
+    <ID Name="FolderOpen_cluster" Value="10054" />
+    <ID Name="FolderOpen_cmake" Value="10055" />
+    <ID Name="FolderOpen_cnab" Value="10056" />
+    <ID Name="FolderOpen_cobol" Value="10057" />
+    <ID Name="FolderOpen_codesandbox" Value="10058" />
+    <ID Name="FolderOpen_components" Value="10059" />
+    <ID Name="FolderOpen_composer" Value="10060" />
+    <ID Name="FolderOpen_conductor" Value="10061" />
+    <ID Name="FolderOpen_config" Value="10062" />
+    <ID Name="FolderOpen_connection" Value="10063" />
+    <ID Name="FolderOpen_constants" Value="10064" />
+    <ID Name="FolderOpen_container" Value="10065" />
+    <ID Name="FolderOpen_content" Value="10066" />
+    <ID Name="FolderOpen_contract" Value="10067" />
+    <ID Name="FolderOpen_controllers" Value="10068" />
+    <ID Name="FolderOpen_core" Value="10069" />
+    <ID Name="FolderOpen_coverage" Value="10070" />
+    <ID Name="FolderOpen_crates" Value="10071" />
+    <ID Name="FolderOpen_cron" Value="10072" />
+    <ID Name="FolderOpen_crossplane" Value="10073" />
+    <ID Name="FolderOpen_css" Value="10074" />
+    <ID Name="FolderOpen_cubit" Value="10075" />
+    <ID Name="FolderOpen_cue" Value="10076" />
+    <ID Name="FolderOpen_cursor" Value="10077" />
+    <ID Name="FolderOpen_custom" Value="10078" />
+    <ID Name="FolderOpen_cvs" Value="10079" />
+    <ID Name="FolderOpen_cypress" Value="10080" />
+    <ID Name="FolderOpen_dapr" Value="10081" />
+    <ID Name="FolderOpen_dart" Value="10082" />
+    <ID Name="FolderOpen_db" Value="10083" />
+    <ID Name="FolderOpen_debian" Value="10084" />
+    <ID Name="FolderOpen_debug" Value="10085" />
+    <ID Name="FolderOpen_decorators" Value="10086" />
+    <ID Name="FolderOpen_default" Value="10087" />
+    <ID Name="FolderOpen_delta" Value="10088" />
+    <ID Name="FolderOpen_deno" Value="10089" />
+    <ID Name="FolderOpen_dependabot" Value="10090" />
+    <ID Name="FolderOpen_deploy" Value="10091" />
+    <ID Name="FolderOpen_devcontainer" Value="10092" />
+    <ID Name="FolderOpen_dist" Value="10093" />
+    <ID Name="FolderOpen_docker" Value="10094" />
+    <ID Name="FolderOpen_docs" Value="10095" />
+    <ID Name="FolderOpen_domain" Value="10096" />
+    <ID Name="FolderOpen_download" Value="10097" />
+    <ID Name="FolderOpen_drizzle" Value="10098" />
+    <ID Name="FolderOpen_dropbox" Value="10099" />
+    <ID Name="FolderOpen_dub" Value="10100" />
+    <ID Name="FolderOpen_dump" Value="10101" />
+    <ID Name="FolderOpen_dvc" Value="10102" />
+    <ID Name="FolderOpen_e2e" Value="10103" />
+    <ID Name="FolderOpen_elastic" Value="10104" />
+    <ID Name="FolderOpen_electron" Value="10105" />
+    <ID Name="FolderOpen_elixir" Value="10106" />
+    <ID Name="FolderOpen_emacs" Value="10107" />
+    <ID Name="FolderOpen_empties" Value="10108" />
+    <ID Name="FolderOpen_env" Value="10109" />
+    <ID Name="FolderOpen_error" Value="10110" />
+    <ID Name="FolderOpen_eslint" Value="10111" />
+    <ID Name="FolderOpen_events" Value="10112" />
+    <ID Name="FolderOpen_examples" Value="10113" />
+    <ID Name="FolderOpen_exclude" Value="10114" />
+    <ID Name="FolderOpen_expo" Value="10115" />
+    <ID Name="FolderOpen_faq" Value="10116" />
+    <ID Name="FolderOpen_fastlane" Value="10117" />
+    <ID Name="FolderOpen_favorites" Value="10118" />
+    <ID Name="FolderOpen_features" Value="10119" />
+    <ID Name="FolderOpen_firebase" Value="10120" />
+    <ID Name="FolderOpen_fixtures" Value="10121" />
+    <ID Name="FolderOpen_flow" Value="10122" />
+    <ID Name="FolderOpen_fluig" Value="10123" />
+    <ID Name="FolderOpen_flutter" Value="10124" />
+    <ID Name="FolderOpen_folder" Value="10125" />
+    <ID Name="FolderOpen_folder_root" Value="10126" />
+    <ID Name="FolderOpen_fonts" Value="10127" />
+    <ID Name="FolderOpen_functions" Value="10128" />
+    <ID Name="FolderOpen_gcloud" Value="10129" />
+    <ID Name="FolderOpen_generated" Value="10130" />
+    <ID Name="FolderOpen_git" Value="10131" />
+    <ID Name="FolderOpen_gitea" Value="10132" />
+    <ID Name="FolderOpen_github" Value="10133" />
+    <ID Name="FolderOpen_gitlab" Value="10134" />
+    <ID Name="FolderOpen_global" Value="10135" />
+    <ID Name="FolderOpen_go" Value="10136" />
+    <ID Name="FolderOpen_gradle" Value="10137" />
+    <ID Name="FolderOpen_graphql" Value="10138" />
+    <ID Name="FolderOpen_gritql" Value="10139" />
+    <ID Name="FolderOpen_grunt" Value="10140" />
+    <ID Name="FolderOpen_guard" Value="10141" />
+    <ID Name="FolderOpen_gulp" Value="10142" />
+    <ID Name="FolderOpen_hasura" Value="10143" />
+    <ID Name="FolderOpen_haxelib" Value="10144" />
+    <ID Name="FolderOpen_helm" Value="10145" />
+    <ID Name="FolderOpen_helper" Value="10146" />
+    <ID Name="FolderOpen_home" Value="10147" />
+    <ID Name="FolderOpen_hook" Value="10148" />
+    <ID Name="FolderOpen_husky" Value="10149" />
+    <ID Name="FolderOpen_i18n" Value="10150" />
+    <ID Name="FolderOpen_icons" Value="10151" />
+    <ID Name="FolderOpen_idea" Value="10152" />
+    <ID Name="FolderOpen_images" Value="10153" />
+    <ID Name="FolderOpen_include" Value="10154" />
+    <ID Name="FolderOpen_info" Value="10155" />
+    <ID Name="FolderOpen_init" Value="10156" />
+    <ID Name="FolderOpen_injection" Value="10157" />
+    <ID Name="FolderOpen_interceptor" Value="10158" />
+    <ID Name="FolderOpen_internal" Value="10159" />
+    <ID Name="FolderOpen_ios" Value="10160" />
+    <ID Name="FolderOpen_iosapp" Value="10161" />
+    <ID Name="FolderOpen_islands" Value="10162" />
+    <ID Name="FolderOpen_istanbul" Value="10163" />
+    <ID Name="FolderOpen_java" Value="10164" />
+    <ID Name="FolderOpen_jest" Value="10165" />
+    <ID Name="FolderOpen_jinja" Value="10166" />
+    <ID Name="FolderOpen_job" Value="10167" />
+    <ID Name="FolderOpen_js" Value="10168" />
+    <ID Name="FolderOpen_json" Value="10169" />
+    <ID Name="FolderOpen_junie" Value="10170" />
+    <ID Name="FolderOpen_jwt" Value="10171" />
+    <ID Name="FolderOpen_keys" Value="10172" />
+    <ID Name="FolderOpen_kivy" Value="10173" />
+    <ID Name="FolderOpen_kotlin" Value="10174" />
+    <ID Name="FolderOpen_kubernetes" Value="10175" />
+    <ID Name="FolderOpen_kustomize" Value="10176" />
+    <ID Name="FolderOpen_layouts" Value="10177" />
+    <ID Name="FolderOpen_less" Value="10178" />
+    <ID Name="FolderOpen_lib" Value="10179" />
+    <ID Name="FolderOpen_linux" Value="10180" />
+    <ID Name="FolderOpen_liquibase" Value="10181" />
+    <ID Name="FolderOpen_logs" Value="10182" />
+    <ID Name="FolderOpen_lottie" Value="10183" />
+    <ID Name="FolderOpen_lua" Value="10184" />
+    <ID Name="FolderOpen_mac" Value="10185" />
+    <ID Name="FolderOpen_mailers" Value="10186" />
+    <ID Name="FolderOpen_main" Value="10187" />
+    <ID Name="FolderOpen_maps" Value="10188" />
+    <ID Name="FolderOpen_markdown" Value="10189" />
+    <ID Name="FolderOpen_math" Value="10190" />
+    <ID Name="FolderOpen_maven" Value="10191" />
+    <ID Name="FolderOpen_mcp" Value="10192" />
+    <ID Name="FolderOpen_mercurial" Value="10193" />
+    <ID Name="FolderOpen_messages" Value="10194" />
+    <ID Name="FolderOpen_meta" Value="10195" />
+    <ID Name="FolderOpen_meteor" Value="10196" />
+    <ID Name="FolderOpen_metro" Value="10197" />
+    <ID Name="FolderOpen_middleware" Value="10198" />
+    <ID Name="FolderOpen_mindsdb" Value="10199" />
+    <ID Name="FolderOpen_mjml" Value="10200" />
+    <ID Name="FolderOpen_mobile" Value="10201" />
+    <ID Name="FolderOpen_mocks" Value="10202" />
+    <ID Name="FolderOpen_modals" Value="10203" />
+    <ID Name="FolderOpen_models" Value="10204" />
+    <ID Name="FolderOpen_molecules" Value="10205" />
+    <ID Name="FolderOpen_mongo" Value="10206" />
+    <ID Name="FolderOpen_moon" Value="10207" />
+    <ID Name="FolderOpen_msw" Value="10208" />
+    <ID Name="FolderOpen_navigation" Value="10209" />
+    <ID Name="FolderOpen_netlify" Value="10210" />
+    <ID Name="FolderOpen_next" Value="10211" />
+    <ID Name="FolderOpen_node" Value="10212" />
+    <ID Name="FolderOpen_notebooks" Value="10213" />
+    <ID Name="FolderOpen_notification" Value="10214" />
+    <ID Name="FolderOpen_nuget" Value="10215" />
+    <ID Name="FolderOpen_nuxt" Value="10216" />
+    <ID Name="FolderOpen_nx" Value="10217" />
+    <ID Name="FolderOpen_obsidian" Value="10218" />
+    <ID Name="FolderOpen_openshift" Value="10219" />
+    <ID Name="FolderOpen_orders" Value="10220" />
+    <ID Name="FolderOpen_osx" Value="10221" />
+    <ID Name="FolderOpen_other" Value="10222" />
+    <ID Name="FolderOpen_packages" Value="10223" />
+    <ID Name="FolderOpen_parcel" Value="10224" />
+    <ID Name="FolderOpen_pdf" Value="10225" />
+    <ID Name="FolderOpen_pdm" Value="10226" />
+    <ID Name="FolderOpen_perl" Value="10227" />
+    <ID Name="FolderOpen_php" Value="10228" />
+    <ID Name="FolderOpen_pinia" Value="10229" />
+    <ID Name="FolderOpen_pipe" Value="10230" />
+    <ID Name="FolderOpen_platformio" Value="10231" />
+    <ID Name="FolderOpen_playwright" Value="10232" />
+    <ID Name="FolderOpen_plugin" Value="10233" />
+    <ID Name="FolderOpen_postman" Value="10234" />
+    <ID Name="FolderOpen_posts" Value="10235" />
+    <ID Name="FolderOpen_prisma" Value="10236" />
+    <ID Name="FolderOpen_private" Value="10237" />
+    <ID Name="FolderOpen_profiles" Value="10238" />
+    <ID Name="FolderOpen_project" Value="10239" />
+    <ID Name="FolderOpen_projects" Value="10240" />
+    <ID Name="FolderOpen_prompts" Value="10241" />
+    <ID Name="FolderOpen_protobuf" Value="10242" />
+    <ID Name="FolderOpen_providers" Value="10243" />
+    <ID Name="FolderOpen_python" Value="10244" />
+    <ID Name="FolderOpen_quantum" Value="10245" />
+    <ID Name="FolderOpen_quasar" Value="10246" />
+    <ID Name="FolderOpen_queries" Value="10247" />
+    <ID Name="FolderOpen_queue" Value="10248" />
+    <ID Name="FolderOpen_r" Value="10249" />
+    <ID Name="FolderOpen_react" Value="10250" />
+    <ID Name="FolderOpen_recoil" Value="10251" />
+    <ID Name="FolderOpen_redhat" Value="10252" />
+    <ID Name="FolderOpen_redis" Value="10253" />
+    <ID Name="FolderOpen_redux" Value="10254" />
+    <ID Name="FolderOpen_redux_actions" Value="10255" />
+    <ID Name="FolderOpen_redux_epics" Value="10256" />
+    <ID Name="FolderOpen_redux_reducers" Value="10257" />
+    <ID Name="FolderOpen_redux_sagas" Value="10258" />
+    <ID Name="FolderOpen_redux_stores" Value="10259" />
+    <ID Name="FolderOpen_redwood" Value="10260" />
+    <ID Name="FolderOpen_relay" Value="10261" />
+    <ID Name="FolderOpen_resolver" Value="10262" />
+    <ID Name="FolderOpen_resource" Value="10263" />
+    <ID Name="FolderOpen_reviews" Value="10264" />
+    <ID Name="FolderOpen_root" Value="10265" />
+    <ID Name="FolderOpen_routes" Value="10266" />
+    <ID Name="FolderOpen_ruby" Value="10267" />
+    <ID Name="FolderOpen_rules" Value="10268" />
+    <ID Name="FolderOpen_rust" Value="10269" />
+    <ID Name="FolderOpen_salt" Value="10270" />
+    <ID Name="FolderOpen_sass" Value="10271" />
+    <ID Name="FolderOpen_scala" Value="10272" />
+    <ID Name="FolderOpen_scons" Value="10273" />
+    <ID Name="FolderOpen_scratch" Value="10274" />
+    <ID Name="FolderOpen_screens" Value="10275" />
+    <ID Name="FolderOpen_scripts" Value="10276" />
+    <ID Name="FolderOpen_security" Value="10277" />
+    <ID Name="FolderOpen_seed" Value="10278" />
+    <ID Name="FolderOpen_server" Value="10279" />
+    <ID Name="FolderOpen_serverless" Value="10280" />
+    <ID Name="FolderOpen_shader" Value="10281" />
+    <ID Name="FolderOpen_shared" Value="10282" />
+    <ID Name="FolderOpen_skeletons" Value="10283" />
+    <ID Name="FolderOpen_skill" Value="10284" />
+    <ID Name="FolderOpen_sql" Value="10285" />
+    <ID Name="FolderOpen_src" Value="10286" />
+    <ID Name="FolderOpen_sso" Value="10287" />
+    <ID Name="FolderOpen_sst" Value="10288" />
+    <ID Name="FolderOpen_stack" Value="10289" />
+    <ID Name="FolderOpen_stencil" Value="10290" />
+    <ID Name="FolderOpen_storage" Value="10291" />
+    <ID Name="FolderOpen_storyblok" Value="10292" />
+    <ID Name="FolderOpen_storybook" Value="10293" />
+    <ID Name="FolderOpen_strategy" Value="10294" />
+    <ID Name="FolderOpen_styled" Value="10295" />
+    <ID Name="FolderOpen_styles" Value="10296" />
+    <ID Name="FolderOpen_stylus" Value="10297" />
+    <ID Name="FolderOpen_sublime" Value="10298" />
+    <ID Name="FolderOpen_supabase" Value="10299" />
+    <ID Name="FolderOpen_svelte" Value="10300" />
+    <ID Name="FolderOpen_svg" Value="10301" />
+    <ID Name="FolderOpen_svn" Value="10302" />
+    <ID Name="FolderOpen_swagger" Value="10303" />
+    <ID Name="FolderOpen_sync" Value="10304" />
+    <ID Name="FolderOpen_syntax" Value="10305" />
+    <ID Name="FolderOpen_target" Value="10306" />
+    <ID Name="FolderOpen_taskfile" Value="10307" />
+    <ID Name="FolderOpen_tasks" Value="10308" />
+    <ID Name="FolderOpen_tauri" Value="10309" />
+    <ID Name="FolderOpen_tech" Value="10310" />
+    <ID Name="FolderOpen_temp" Value="10311" />
+    <ID Name="FolderOpen_terraform" Value="10312" />
+    <ID Name="FolderOpen_tests" Value="10313" />
+    <ID Name="FolderOpen_textmate" Value="10314" />
+    <ID Name="FolderOpen_themes" Value="10315" />
+    <ID Name="FolderOpen_tools" Value="10316" />
+    <ID Name="FolderOpen_totvs" Value="10317" />
+    <ID Name="FolderOpen_trait" Value="10318" />
+    <ID Name="FolderOpen_trash" Value="10319" />
+    <ID Name="FolderOpen_trpc" Value="10320" />
+    <ID Name="FolderOpen_ts" Value="10321" />
+    <ID Name="FolderOpen_turborepo" Value="10322" />
+    <ID Name="FolderOpen_ui" Value="10323" />
+    <ID Name="FolderOpen_unity" Value="10324" />
+    <ID Name="FolderOpen_upload" Value="10325" />
+    <ID Name="FolderOpen_users" Value="10326" />
+    <ID Name="FolderOpen_vagrant" Value="10327" />
+    <ID Name="FolderOpen_venv" Value="10328" />
+    <ID Name="FolderOpen_vercel" Value="10329" />
+    <ID Name="FolderOpen_verdaccio" Value="10330" />
+    <ID Name="FolderOpen_video" Value="10331" />
+    <ID Name="FolderOpen_viewmodel" Value="10332" />
+    <ID Name="FolderOpen_views" Value="10333" />
+    <ID Name="FolderOpen_vim" Value="10334" />
+    <ID Name="FolderOpen_vitepress" Value="10335" />
+    <ID Name="FolderOpen_vm" Value="10336" />
+    <ID Name="FolderOpen_vs" Value="10337" />
+    <ID Name="FolderOpen_vscode" Value="10338" />
+    <ID Name="FolderOpen_vue" Value="10339" />
+    <ID Name="FolderOpen_vuepress" Value="10340" />
+    <ID Name="FolderOpen_vuex" Value="10341" />
+    <ID Name="FolderOpen_web" Value="10342" />
+    <ID Name="FolderOpen_webcomponents" Value="10343" />
+    <ID Name="FolderOpen_webpack" Value="10344" />
+    <ID Name="FolderOpen_windows" Value="10345" />
+    <ID Name="FolderOpen_wine" Value="10346" />
+    <ID Name="FolderOpen_woocommerce" Value="10347" />
+    <ID Name="FolderOpen_woodpecker" Value="10348" />
+    <ID Name="FolderOpen_wordpress" Value="10349" />
+    <ID Name="FolderOpen_xstate" Value="10350" />
+    <ID Name="FolderOpen_yarn" Value="10351" />
+  </Symbols>
+  <Images>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_acf)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/acf.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_acre)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/acre.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_adapter)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/adapter.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_addon)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/addon.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_admin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/admin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_adr)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/adr.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_agda)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/agda.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_ai)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/ai.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_airflow)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/airflow.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_alacritty)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/alacritty.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_amplication)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/amplication.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_android)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/android.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_angular)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/angular.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_animations)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/animations.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_ansible)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/ansible.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_api)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/api.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_apollo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/apollo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_app)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/app.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_appstore)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/appstore.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_appwrite)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/appwrite.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_archetype)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/archetype.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_archive)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/archive.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_article)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/article.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_arttext)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/arttext.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_assembly)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/assembly.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_astro)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/astro.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_atom)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/atom.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_audio)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/audio.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_aurelia)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/aurelia.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_automator)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/automator.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_aws)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/aws.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_azure_devops)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/azure-devops.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_azure_pipelines)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/azure-pipelines.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_base)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/base.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_bazaar)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/bazaar.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_benchmark)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/benchmark.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_bicep)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/bicep.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_bitcoin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/bitcoin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_bloc)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/bloc.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_blueprint)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/blueprint.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_bot)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/bot.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_bower)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/bower.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_buildkite)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/buildkite.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cabal)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cabal.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cake)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cake.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cart)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cart.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_channels)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/channels.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_charts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/charts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_chef)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/chef.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_ci)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/ci.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_circleci)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/circleci.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_class)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/class.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_client)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/client.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cluster)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cluster.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cmake)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cmake.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cnab)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cnab.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cobol)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cobol.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_codesandbox)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/codesandbox.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_components)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/components.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_composer)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/composer.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_conductor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/conductor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_config)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/config.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_connection)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/connection.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_constants)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/constants.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_container)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/container.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_content)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/content.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_contract)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/contract.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_controllers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/controllers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_core)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/core.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_coverage)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/coverage.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_crates)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/crates.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cron)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cron.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_crossplane)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/crossplane.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cubit)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cubit.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cue)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cue.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cursor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cursor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_custom)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/custom.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cvs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cvs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_cypress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/cypress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dapr)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dapr.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dart)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dart.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_db)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/db.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_debian)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/debian.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_debug)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/debug.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_decorators)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/decorators.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_default)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/default.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_delta)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/delta.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_deno)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/deno.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dependabot)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dependabot.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_deploy)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/deploy.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_devcontainer)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/devcontainer.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dist)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dist.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_docker)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/docker.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_docs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/docs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_domain)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/domain.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_download)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/download.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_drizzle)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/drizzle.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dropbox)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dropbox.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dub)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dub.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dump)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dump.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_dvc)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/dvc.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_e2e)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/e2e.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_elastic)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/elastic.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_electron)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/electron.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_elixir)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/elixir.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_emacs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/emacs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_empties)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/empties.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_env)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/env.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_error)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/error.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_eslint)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/eslint.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_events)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/events.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_examples)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/examples.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_exclude)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/exclude.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_expo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/expo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_faq)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/faq.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_fastlane)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/fastlane.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_favorites)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/favorites.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_features)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/features.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_firebase)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/firebase.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_fixtures)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/fixtures.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_flow)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/flow.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_fluig)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/fluig.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_flutter)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/flutter.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_folder)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/folder.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_folder_root)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/folder-root.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_fonts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/fonts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_functions)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/functions.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_gcloud)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/gcloud.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_generated)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/generated.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_git)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/git.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_gitea)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/gitea.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_github)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/github.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_gitlab)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/gitlab.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_global)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/global.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_go)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/go.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_gradle)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/gradle.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_graphql)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/graphql.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_gritql)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/gritql.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_grunt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/grunt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_guard)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/guard.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_gulp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/gulp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_hasura)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/hasura.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_haxelib)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/haxelib.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_helm)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/helm.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_helper)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/helper.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_home)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/home.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_hook)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/hook.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_husky)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/husky.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_i18n)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/i18n.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_icons)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/icons.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_idea)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/idea.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_images)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/images.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_include)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/include.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_info)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/info.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_init)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/init.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_injection)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/injection.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_interceptor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/interceptor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_internal)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/internal.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_ios)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/ios.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_iosapp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/iosapp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_islands)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/islands.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_istanbul)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/istanbul.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_java)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/java.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_jest)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/jest.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_jinja)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/jinja.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_job)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/job.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_js)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/js.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_json)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/json.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_junie)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/junie.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_jwt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/jwt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_keys)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/keys.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_kivy)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/kivy.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_kotlin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/kotlin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_kubernetes)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/kubernetes.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_kustomize)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/kustomize.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_layouts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/layouts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_less)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/less.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_lib)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/lib.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_linux)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/linux.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_liquibase)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/liquibase.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_logs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/logs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_lottie)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/lottie.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_lua)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/lua.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mac)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mac.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mailers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mailers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_main)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/main.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_maps)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/maps.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_markdown)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/markdown.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_math)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/math.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_maven)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/maven.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mcp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mcp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mercurial)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mercurial.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_messages)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/messages.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_meta)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/meta.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_meteor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/meteor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_metro)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/metro.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_middleware)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/middleware.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mindsdb)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mindsdb.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mjml)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mjml.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mobile)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mobile.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mocks)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mocks.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_modals)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/modals.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_models)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/models.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_molecules)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/molecules.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_mongo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/mongo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_moon)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/moon.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_msw)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/msw.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_navigation)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/navigation.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_netlify)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/netlify.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_next)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/next.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_node)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/node.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_notebooks)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/notebooks.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_notification)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/notification.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_nuget)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/nuget.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_nuxt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/nuxt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_nx)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/nx.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_obsidian)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/obsidian.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_openshift)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/openshift.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_orders)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/orders.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_osx)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/osx.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_other)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/other.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_packages)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/packages.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_parcel)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/parcel.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_pdf)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/pdf.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_pdm)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/pdm.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_perl)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/perl.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_php)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/php.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_pinia)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/pinia.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_pipe)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/pipe.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_plastic)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/plastic.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_platformio)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/platformio.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_playwright)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/playwright.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_plugin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/plugin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_postman)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/postman.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_posts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/posts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_prisma)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/prisma.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_private)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/private.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_profiles)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/profiles.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_project)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/project.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_projects)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/projects.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_prompts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/prompts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_protobuf)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/protobuf.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_providers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/providers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_python)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/python.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_quantum)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/quantum.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_quasar)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/quasar.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_queries)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/queries.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_queue)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/queue.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_r)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/r.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_react)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/react.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_recoil)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/recoil.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redhat)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redhat.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redis)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redis.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redux)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redux.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redux_actions)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redux-actions.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redux_epics)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redux-epics.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redux_reducers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redux-reducers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redux_sagas)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redux-sagas.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redux_stores)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redux-stores.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_redwood)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/redwood.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_relay)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/relay.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_resolver)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/resolver.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_resource)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/resource.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_reviews)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/reviews.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_root)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/root.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_routes)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/routes.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_ruby)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/ruby.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_rules)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/rules.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_rust)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/rust.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_salt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/salt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_sass)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/sass.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_scala)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/scala.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_scons)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/scons.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_scratch)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/scratch.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_screens)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/screens.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_scripts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/scripts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_security)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/security.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_seed)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/seed.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_server)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/server.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_serverless)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/serverless.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_shader)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/shader.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_shared)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/shared.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_skeletons)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/skeletons.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_skill)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/skill.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_sql)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/sql.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_src)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/src.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_sso)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/sso.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_sst)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/sst.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_stack)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/stack.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_stencil)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/stencil.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_storage)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/storage.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_storyblok)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/storyblok.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_storybook)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/storybook.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_strategy)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/strategy.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_styled)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/styled.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_styles)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/styles.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_stylus)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/stylus.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_sublime)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/sublime.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_supabase)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/supabase.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_svelte)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/svelte.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_svg)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/svg.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_svn)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/svn.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_swagger)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/swagger.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_sync)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/sync.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_syntax)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/syntax.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_target)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/target.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_taskfile)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/taskfile.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_tasks)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/tasks.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_tauri)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/tauri.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_tech)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/tech.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_temp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/temp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_terraform)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/terraform.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_tests)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/tests.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_textmate)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/textmate.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_themes)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/themes.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_tools)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/tools.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_totvs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/totvs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_trait)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/trait.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_trash)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/trash.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_trpc)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/trpc.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_ts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/ts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_turborepo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/turborepo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_ui)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/ui.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_unity)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/unity.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_upload)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/upload.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_users)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/users.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vagrant)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vagrant.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_venv)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/venv.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vercel)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vercel.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_verdaccio)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/verdaccio.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_video)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/video.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_viewmodel)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/viewmodel.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_views)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/views.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vim)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vim.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vitepress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vitepress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vm)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vm.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vscode)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vscode.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vue)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vue.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vuepress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vuepress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_vuex)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/vuex.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_web)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/web.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_webcomponents)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/webcomponents.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_webpack)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/webpack.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_windows)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/windows.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_wine)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/wine.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_woocommerce)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/woocommerce.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_woodpecker)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/woodpecker.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_wordpress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/wordpress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_xstate)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/xstate.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(Folder_yarn)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/folders/yarn.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_acf)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/acf.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_acre)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/acre.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_adapter)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/adapter.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_addon)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/addon.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_admin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/admin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_adr)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/adr.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_agda)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/agda.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_ai)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/ai.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_airflow)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/airflow.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_alacritty)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/alacritty.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_amplication)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/amplication.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_android)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/android.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_angular)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/angular.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_animations)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/animations.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_ansible)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/ansible.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_api)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/api.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_apollo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/apollo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_app)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/app.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_appstore)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/appstore.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_appwrite)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/appwrite.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_archetype)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/archetype.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_archive)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/archive.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_article)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/article.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_arttext)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/arttext.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_assembly)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/assembly.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_astro)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/astro.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_atom)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/atom.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_audio)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/audio.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_aurelia)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/aurelia.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_automator)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/automator.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_aws)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/aws.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_azure_devops)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/azure-devops.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_azure_pipelines)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/azure-pipelines.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_base)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/base.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_bazaar)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/bazaar.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_benchmark)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/benchmark.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_bicep)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/bicep.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_bitcoin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/bitcoin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_bloc)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/bloc.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_blueprint)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/blueprint.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_bot)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/bot.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_bower)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/bower.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_buildkite)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/buildkite.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cabal)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cabal.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cake)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cake.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cart)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cart.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_channels)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/channels.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_charts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/charts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_chef)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/chef.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_ci)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/ci.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_circleci)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/circleci.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_class)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/class.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_client)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/client.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cluster)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cluster.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cmake)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cmake.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cnab)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cnab.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cobol)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cobol.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_codesandbox)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/codesandbox.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_components)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/components.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_composer)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/composer.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_conductor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/conductor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_config)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/config.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_connection)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/connection.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_constants)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/constants.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_container)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/container.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_content)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/content.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_contract)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/contract.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_controllers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/controllers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_core)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/core.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_coverage)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/coverage.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_crates)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/crates.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cron)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cron.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_crossplane)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/crossplane.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_css)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/css.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cubit)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cubit.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cue)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cue.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cursor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cursor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_custom)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/custom.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cvs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cvs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_cypress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/cypress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dapr)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dapr.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dart)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dart.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_db)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/db.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_debian)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/debian.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_debug)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/debug.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_decorators)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/decorators.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_default)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/default.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_delta)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/delta.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_deno)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/deno.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dependabot)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dependabot.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_deploy)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/deploy.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_devcontainer)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/devcontainer.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dist)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dist.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_docker)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/docker.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_docs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/docs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_domain)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/domain.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_download)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/download.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_drizzle)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/drizzle.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dropbox)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dropbox.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dub)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dub.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dump)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dump.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_dvc)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/dvc.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_e2e)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/e2e.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_elastic)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/elastic.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_electron)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/electron.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_elixir)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/elixir.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_emacs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/emacs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_empties)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/empties.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_env)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/env.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_error)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/error.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_eslint)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/eslint.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_events)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/events.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_examples)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/examples.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_exclude)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/exclude.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_expo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/expo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_faq)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/faq.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_fastlane)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/fastlane.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_favorites)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/favorites.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_features)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/features.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_firebase)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/firebase.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_fixtures)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/fixtures.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_flow)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/flow.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_fluig)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/fluig.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_flutter)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/flutter.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_folder)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/folder.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_folder_root)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/folder-root.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_fonts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/fonts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_functions)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/functions.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_gcloud)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/gcloud.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_generated)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/generated.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_git)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/git.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_gitea)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/gitea.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_github)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/github.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_gitlab)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/gitlab.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_global)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/global.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_go)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/go.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_gradle)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/gradle.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_graphql)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/graphql.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_gritql)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/gritql.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_grunt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/grunt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_guard)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/guard.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_gulp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/gulp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_hasura)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/hasura.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_haxelib)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/haxelib.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_helm)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/helm.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_helper)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/helper.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_home)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/home.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_hook)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/hook.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_husky)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/husky.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_i18n)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/i18n.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_icons)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/icons.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_idea)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/idea.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_images)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/images.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_include)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/include.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_info)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/info.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_init)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/init.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_injection)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/injection.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_interceptor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/interceptor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_internal)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/internal.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_ios)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/ios.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_iosapp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/iosapp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_islands)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/islands.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_istanbul)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/istanbul.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_java)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/java.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_jest)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/jest.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_jinja)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/jinja.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_job)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/job.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_js)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/js.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_json)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/json.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_junie)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/junie.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_jwt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/jwt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_keys)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/keys.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_kivy)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/kivy.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_kotlin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/kotlin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_kubernetes)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/kubernetes.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_kustomize)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/kustomize.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_layouts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/layouts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_less)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/less.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_lib)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/lib.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_linux)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/linux.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_liquibase)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/liquibase.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_logs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/logs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_lottie)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/lottie.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_lua)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/lua.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mac)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mac.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mailers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mailers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_main)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/main.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_maps)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/maps.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_markdown)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/markdown.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_math)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/math.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_maven)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/maven.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mcp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mcp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mercurial)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mercurial.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_messages)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/messages.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_meta)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/meta.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_meteor)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/meteor.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_metro)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/metro.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_middleware)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/middleware.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mindsdb)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mindsdb.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mjml)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mjml.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mobile)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mobile.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mocks)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mocks.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_modals)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/modals.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_models)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/models.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_molecules)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/molecules.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_mongo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/mongo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_moon)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/moon.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_msw)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/msw.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_navigation)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/navigation.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_netlify)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/netlify.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_next)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/next.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_node)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/node.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_notebooks)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/notebooks.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_notification)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/notification.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_nuget)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/nuget.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_nuxt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/nuxt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_nx)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/nx.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_obsidian)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/obsidian.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_openshift)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/openshift.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_orders)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/orders.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_osx)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/osx.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_other)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/other.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_packages)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/packages.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_parcel)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/parcel.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_pdf)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/pdf.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_pdm)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/pdm.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_perl)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/perl.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_php)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/php.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_pinia)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/pinia.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_pipe)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/pipe.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_platformio)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/platformio.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_playwright)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/playwright.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_plugin)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/plugin.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_postman)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/postman.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_posts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/posts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_prisma)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/prisma.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_private)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/private.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_profiles)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/profiles.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_project)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/project.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_projects)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/projects.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_prompts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/prompts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_protobuf)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/protobuf.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_providers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/providers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_python)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/python.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_quantum)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/quantum.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_quasar)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/quasar.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_queries)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/queries.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_queue)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/queue.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_r)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/r.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_react)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/react.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_recoil)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/recoil.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redhat)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redhat.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redis)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redis.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redux)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redux.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redux_actions)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redux-actions.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redux_epics)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redux-epics.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redux_reducers)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redux-reducers.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redux_sagas)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redux-sagas.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redux_stores)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redux-stores.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_redwood)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/redwood.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_relay)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/relay.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_resolver)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/resolver.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_resource)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/resource.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_reviews)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/reviews.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_root)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/root.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_routes)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/routes.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_ruby)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/ruby.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_rules)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/rules.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_rust)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/rust.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_salt)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/salt.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_sass)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/sass.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_scala)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/scala.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_scons)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/scons.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_scratch)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/scratch.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_screens)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/screens.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_scripts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/scripts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_security)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/security.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_seed)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/seed.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_server)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/server.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_serverless)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/serverless.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_shader)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/shader.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_shared)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/shared.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_skeletons)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/skeletons.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_skill)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/skill.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_sql)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/sql.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_src)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/src.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_sso)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/sso.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_sst)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/sst.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_stack)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/stack.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_stencil)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/stencil.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_storage)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/storage.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_storyblok)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/storyblok.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_storybook)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/storybook.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_strategy)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/strategy.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_styled)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/styled.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_styles)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/styles.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_stylus)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/stylus.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_sublime)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/sublime.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_supabase)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/supabase.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_svelte)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/svelte.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_svg)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/svg.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_svn)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/svn.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_swagger)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/swagger.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_sync)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/sync.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_syntax)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/syntax.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_target)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/target.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_taskfile)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/taskfile.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_tasks)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/tasks.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_tauri)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/tauri.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_tech)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/tech.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_temp)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/temp.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_terraform)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/terraform.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_tests)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/tests.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_textmate)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/textmate.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_themes)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/themes.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_tools)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/tools.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_totvs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/totvs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_trait)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/trait.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_trash)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/trash.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_trpc)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/trpc.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_ts)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/ts.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_turborepo)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/turborepo.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_ui)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/ui.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_unity)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/unity.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_upload)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/upload.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_users)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/users.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vagrant)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vagrant.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_venv)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/venv.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vercel)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vercel.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_verdaccio)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/verdaccio.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_video)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/video.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_viewmodel)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/viewmodel.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_views)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/views.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vim)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vim.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vitepress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vitepress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vm)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vm.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vs)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vs.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vscode)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vscode.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vue)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vue.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vuepress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vuepress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_vuex)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/vuex.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_web)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/web.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_webcomponents)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/webcomponents.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_webpack)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/webpack.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_windows)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/windows.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_wine)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/wine.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_woocommerce)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/woocommerce.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_woodpecker)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/woodpecker.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_wordpress)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/wordpress.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_xstate)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/xstate.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+    <Image Guid="$(MaterialFolderIconsGuid)" ID="$(FolderOpen_yarn)" AllowColorInversion="false">
+      <Source Uri="$(Resources)/foldersopen/yarn.png">
+        <Size Value="16" />
+      </Source>
+    </Image>
+  </Images>
+  <ImageLists />
+</ImageManifest>
+

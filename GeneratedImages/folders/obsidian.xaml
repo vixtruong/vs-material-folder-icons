@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <DrawingImage.Drawing>
+    <DrawingGroup>
+      <GeometryDrawing Brush="#673AB7" Geometry="M221.5 120.58l-20.6-17.16A32.01 32.01 0 00180.42 96H64c-17.67 0-32 14.33-32 32v256c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32H241.98a32.01 32.01 0 01-20.48-7.42z" />
+    </DrawingGroup>
+  </DrawingImage.Drawing>
+</DrawingImage>
