@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-  <DrawingImage.Drawing>
-    <DrawingGroup>
-      <GeometryDrawing Brush="#009688"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,19.097,2.903,20,4,20L20,20C21.097,20,22,19.097,22,18L22,8A2,2,0,0,0,20,6L12,6 10,4z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
-      <GeometryDrawing Brush="#b2dfdb"><GeometryDrawing.Geometry><PathGeometry Figures="M21.524,10.3L12.968,10.3C12.296,10.3,11.746,10.85,11.746,11.522L11.746,20.078C11.746,20.75,12.296,21.3,12.968,21.3L21.524,21.3C22.196,21.3,22.746,20.75,22.746,20.078L22.746,11.522C22.746,10.85,22.196,10.3,21.524,10.3z M12.968,11.516L14.802,11.516C14.802,12.531,13.982,13.356,12.968,13.356z M12.968,15.8L12.968,14.578A3.062,3.062,0,0,0,16.024,11.516L17.246,11.516A4.28,4.28,0,0,1,12.968,15.8z M12.968,19.467L15.108,16.717 16.635,18.557 18.774,15.8 21.524,19.467z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
-    </DrawingGroup>
-  </DrawingImage.Drawing>
-</DrawingImage>

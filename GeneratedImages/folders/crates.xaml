@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-  <DrawingImage.Drawing>
-    <DrawingGroup>
-      <GeometryDrawing Brush="#ff7043"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,19.097,2.903,20,4,20L20,20C21.097,20,22,19.097,22,18L22,8A2,2,0,0,0,20,6L12,6 10,4z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
-      <GeometryDrawing Brush="#ffccbc"><GeometryDrawing.Geometry><PathGeometry Figures="M10.916,8.915L23.501,8.915 23.501,11.712 10.916,11.712 10.916,8.915 M11.616,12.411L22.802,12.411 22.802,21.5 11.615,21.5 11.615,12.41 M15.461,14.508A0.35,0.35,0,0,0,15.111,14.858L15.111,15.907 19.306,15.907 19.306,14.857A0.35,0.35,0,0,0,18.956,14.508z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
-    </DrawingGroup>
-  </DrawingImage.Drawing>
-</DrawingImage>

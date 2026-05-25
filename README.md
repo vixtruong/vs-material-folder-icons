@@ -14,7 +14,7 @@ This first pass implements the asset and resolution foundation:
 - Resolves folder names by exact key first, then validated aliases.
 - Ignores aliases and custom mappings that target missing closed folder SVGs.
 - Logs initialization, discovery counts, invalid custom mappings, and Visual Studio API limitations to the Visual Studio ActivityLog.
-- Packages only the folder SVG directories into the VSIX.
+- Packages the folder SVG directories plus generated PNG image resources into the VSIX.
 
 The current VSIX now attempts native replacement of existing Solution Explorer folder nodes by rendering the bundled SVG files to cached `HICON` handles and setting public hierarchy properties:
 
@@ -72,13 +72,13 @@ The generated VSIX is emitted under `bin\Debug\net472`.
 
 ## Regenerate Folder Image Assets
 
-When SVGs under `assets/icons/folders` or `assets/icons/foldersOpen` change, regenerate the packaged XAML and PNG image catalog assets:
+When SVGs under `assets/icons/folders` or `assets/icons/foldersOpen` change, regenerate the packaged PNG image catalog assets:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\Generate-FolderIconAssets.ps1
 ```
 
-The generator keeps the output canvas at 16x16, adds 0.5px visual padding so folders align closer to Visual Studio's default folder size, and renders the SVG folder plus overlay glyph layers from the source files.
+The generator keeps the output canvas at 16x16, uses the script's `$Padding` value for visual sizing, and renders the SVG folder plus overlay glyph layers from the source files.
 
 ## Run In Experimental Instance
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-  <DrawingImage.Drawing>
-    <DrawingGroup>
-      <GeometryDrawing Brush="#039be5"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,19.097,2.903,20,4,20L20,20C21.097,20,22,19.097,22,18L22,8C22,6.89,21.1,6,20,6L12,6 10,4z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
-      <GeometryDrawing Brush="#b3e5fc"><GeometryDrawing.Geometry><PathGeometry Figures="M7.511,2.479C7.511,2.479,8.1,0.7,8.637,1.045A9.179,9.179,0,0,1,9.4,2.488A1.232,1.232,0,0,1,10.111,2.254A5.8,5.8,0,0,1,9.078,8.025A4.574,4.574,0,0,1,10.514,12.575C11.892,12.575,12.601,11.233,14.359,11.15A0.541,0.541,0,0,1,14.593,12.205C13.371,12.378 12.166,13.743 9.703,14.437 9.385,14.921 7.487,14.867 5.993,15.001 4.412,15.018 4.82,13.785 5.393,13.576A4.841,4.841,0,0,1,4.934,13.193C4.536,15.3 3.457,14.658 2.8,14.477 2.291,14.206 2.836,13.571 2.836,13.571 2.336,13.784 1.95,12.846 2.008,11.925A2.688,2.688,0,0,1,2.881,10.478A4.247,4.247,0,0,1,4.787,6.446A2.02,2.02,0,0,1,4.473,3.817C5.458,3.543,5.649,2.374,7.511,2.479z" Transform="0.666666666666667,0,0,0.666666666666667,5.33333333333333,5.33333333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
-    </DrawingGroup>
-  </DrawingImage.Drawing>
-</DrawingImage>
