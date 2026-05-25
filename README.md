@@ -4,6 +4,8 @@ Material Folder Icons for Visual Studio is a Visual Studio IDE VSIX extension pr
 
 The extension focuses only on Solution Explorer folder icons. It ignores file icons, file extensions, `assets/icons/files`, and `assets/icons/ui`.
 
+![Material Folder Icons overview](docs/images/folder-icons-overview.png)
+
 ## Status
 
 This first pass implements the asset and resolution foundation:

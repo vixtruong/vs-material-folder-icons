@@ -63,7 +63,7 @@ Create a Marketplace publish manifest, for example `marketplace.publish.json`:
   },
   "overview": "README.md",
   "priceCategory": "free",
-  "publisher": "YOUR_MARKETPLACE_PUBLISHER_ID",
+  "publisher": "VixTruong",
   "private": true,
   "qna": true,
   "repo": "https://github.com/YOUR_ACCOUNT/YOUR_REPO"
@@ -100,5 +100,5 @@ Keep `"private": true` for the first upload if you want to inspect the listing b
 - The Marketplace logo is taken from `<Icon>` in `source.extension.vsixmanifest` when provided.
 - This VSIX schema does not accept a `<License>` metadata element; keep license text packaged as `Resources\License.txt` and include attribution in the Marketplace overview.
 - The folder icons are MIT-licensed third-party assets. Keep the copyright and permission notice in redistributed copies.
-- For command-line publishing, the `publisher` in `marketplace.publish.json` must be the Marketplace publisher ID, not necessarily the display name.
+- For command-line publishing, the `publisher` in `marketplace.publish.json` must be the Marketplace publisher ID. For this publisher, use `VixTruong`.
 - Do not commit a real personal access token.

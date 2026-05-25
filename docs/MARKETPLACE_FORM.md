@@ -9,23 +9,19 @@ Use this file as copy-paste content when creating the publisher profile and the 
 Name:
 
 ```text
-Material Folder Icons
+Vix Truong
 ```
 
 ID:
 
 ```text
-material-folder-icons
+VixTruong
 ```
 
 Notes:
 
-- The ID must be unique on Visual Studio Marketplace.
-- Use only a stable ID you are willing to keep long term.
-- If the ID is already taken, use one of:
-  - `vix-material-folder-icons`
-  - `material-folder-icons-vs`
-  - `material-folder-icons-visualstudio`
+- This must match your Visual Studio Marketplace publisher ID.
+- Your current publisher shown in Marketplace is `VixTruong`.
 
 ### Verified Domain
 
@@ -42,7 +38,7 @@ Leave this empty if you do not own a domain yet. Domain verification is optional
 Description:
 
 ```text
-Material Folder Icons publishes Visual Studio IDE extensions focused on improving Solution Explorer readability with clean, recognizable, Material-style folder icons.
+Vix Truong publishes Visual Studio IDE extensions focused on improving developer experience and Solution Explorer readability with clean, recognizable, Material-style folder icons.
 
 The extensions are designed for developers who work with large solutions and want project folders such as Controllers, Configurations, Middleware, Helpers, logs, wwwroot, and other common directories to be easier to scan without changing file icons or project structure.
 ```
@@ -112,7 +108,7 @@ Version:
 Publisher:
 
 ```text
-material-folder-icons
+VixTruong
 ```
 
 Short description:
@@ -190,6 +186,8 @@ Enter these as separate tags. Do not paste the whole list as one tag, because Ma
 Material Folder Icons for Visual Studio improves Solution Explorer readability by applying Material-style icons to recognized project folders.
 
 This extension is for the Visual Studio IDE. It is not a Visual Studio Code icon theme.
+
+![Material Folder Icons overview](https://raw.githubusercontent.com/vixtruong/vs-material-folder-icons/main/docs/images/folder-icons-overview.png)
 
 ## Features
 
@@ -277,7 +275,7 @@ The MIT copyright and permission notice is included with this extension in Resou
   },
   "overview": "README.md",
   "priceCategory": "free",
-  "publisher": "material-folder-icons",
+  "publisher": "VixTruong",
   "private": true,
   "qna": true,
   "repo": "https://github.com/YOUR_ACCOUNT/MaterialIcons"
