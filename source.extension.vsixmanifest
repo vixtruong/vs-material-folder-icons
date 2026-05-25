@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="VSMaterialFolderIcons.VisualStudio" Language="en-US" Publisher="Vix Truong" Version="1.0.0" />
-    <DisplayName>Material Folder Icons for Visual Studio</DisplayName>
+    <Identity Id="MaterialFolderIconsVS.VisualStudio" Language="en-US" Publisher="Vix Truong" Version="1.0.3" />
+    <DisplayName>Material Folder Icons</DisplayName>
     <Description>Material-style folder icon infrastructure for Visual Studio Solution Explorer. This extension scans bundled folder SVG assets and resolves folder-name mappings without touching file icons.</Description>
     <License>Resources\License.txt</License>
     <Icon>Resources\ExtensionIcon.png</Icon>
@@ -29,5 +29,6 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.VsPackage" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" d:Source="Project" d:ProjectName="%CurrentProject%" />
     <Asset Type="Microsoft.VisualStudio.MefComponent" Path="|%CurrentProject%|" d:Source="Project" d:ProjectName="%CurrentProject%" />
+    <Asset Type="Microsoft.VisualStudio.ImageManifest" Path="MaterialFolderIcons.imagemanifest" />
   </Assets>
 </PackageManifest>
