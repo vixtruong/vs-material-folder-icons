@@ -104,6 +104,8 @@ Build the project, then open the `.vsix` file from `bin\Debug\net472` with the V
 
 ## License And Attribution
 
+This extension code is licensed under the MIT License. See [LICENSE.txt](LICENSE.txt).
+
 This extension includes folder icon assets derived from [Atom Material Icons for JetBrains](https://github.com/AtomMaterialUI/a-file-icon-idea), licensed under the MIT License.
 
 The bundled SVG assets and generated PNG resources retain the upstream MIT copyright and permission notice. See [Third-Party Notices](THIRD_PARTY_NOTICES.md).

@@ -231,13 +231,13 @@ See the packaged `Resources/License.txt` and repository `THIRD_PARTY_NOTICES.md`
 If the Marketplace asks for a license URL, use:
 
 ```text
-TODO: https://github.com/YOUR_ACCOUNT/MaterialIcons/blob/main/THIRD_PARTY_NOTICES.md
+TODO: https://github.com/YOUR_ACCOUNT/MaterialIcons/blob/main/LICENSE.txt
 ```
 
 If it asks for license name:
 
 ```text
-MIT License for bundled third-party icon assets; project license TODO if you add your own repository LICENSE file.
+MIT License
 ```
 
 Recommended repository license file:
@@ -249,7 +249,7 @@ MIT License
 Recommended note:
 
 ```text
-This extension contains original integration code plus third-party icon assets derived from Atom Material Icons for JetBrains under the MIT License. The third-party copyright and permission notice are preserved in THIRD_PARTY_NOTICES.md and Resources/License.txt.
+This extension code is licensed under the MIT License. It also contains third-party icon assets derived from Atom Material Icons for JetBrains under the MIT License. The third-party copyright and permission notice are preserved in THIRD_PARTY_NOTICES.md and Resources/License.txt.
 ```
 
 ## Copyright / Legal Notice
