@@ -1,6 +1,6 @@
 # Material Folder Icons for Visual Studio
 
-Material Folder Icons for Visual Studio is a Visual Studio IDE VSIX extension project for Visual Studio 2026 Insiders. It is not a VS Code extension and it does not create a VS Code Material Icon Theme package.
+Material Folder Icons for Visual Studio is a Visual Studio IDE VSIX extension project for Visual Studio 2022 17.14+ and Visual Studio 2026. It is not a VS Code extension and it does not create a VS Code Material Icon Theme package.
 
 The extension focuses only on Solution Explorer folder icons. It ignores file icons, file extensions, `assets/icons/files`, and `assets/icons/ui`.
 
@@ -25,8 +25,8 @@ Some Visual Studio project systems may reject those external `SetProperty` calls
 
 ## Visual Studio Support
 
-- Target IDE: Visual Studio 2026 Insiders / `devenv.exe`
-- VSIX installation target: Visual Studio 18.x
+- Target IDE: Visual Studio 2022 17.14+ and Visual Studio 2026 / `devenv.exe`
+- VSIX installation target: stable Visual Studio API version 17.14+
 - Language: C#
 - Framework: .NET Framework 4.7.2
 - Project type scope: C# SDK-style projects first, pending native Solution Explorer icon replacement support
@@ -82,7 +82,7 @@ The generator keeps the output canvas at 16x16, uses the script's `$Padding` val
 
 ## Run In Experimental Instance
 
-Open the solution in Visual Studio 2026 Insiders and use the standard VSIX debug profile, or run Visual Studio with the Experimental hive after building:
+Open the solution in Visual Studio 2022 17.14+ or Visual Studio 2026 and use the standard VSIX debug profile, or run Visual Studio with the Experimental hive after building:
 
 ```powershell
 devenv /rootsuffix Exp

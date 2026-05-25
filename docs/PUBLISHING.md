@@ -30,6 +30,8 @@ Double-click the VSIX or install it into a Visual Studio Experimental Instance b
 
 ## Publish With Marketplace UI
 
+Use the copy-paste form content in [Marketplace Form Content](MARKETPLACE_FORM.md) when filling the publisher profile and extension listing.
+
 1. Go to https://marketplace.visualstudio.com.
 2. Sign in with a Microsoft account.
 3. Select **Publish extensions**.
@@ -40,7 +42,7 @@ Double-click the VSIX or install it into a Visual Studio Experimental Instance b
 8. Fill in:
    - Overview
    - Type
-   - Categories, up to 3
+   - Categories, up to 3. Use `Coding` if Marketplace does not show `Themes`.
    - Pricing category
    - Repository URL, if public
    - Q&A setting
@@ -57,7 +59,7 @@ Create a Marketplace publish manifest, for example `marketplace.publish.json`:
   "$schema": "http://json.schemastore.org/vsix-publish",
   "categories": [ "coding" ],
   "identity": {
-    "internalName": "MaterialFolderIcons.VisualStudio"
+    "internalName": "material-folder-icons"
   },
   "overview": "README.md",
   "priceCategory": "free",

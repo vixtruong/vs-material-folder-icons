@@ -1,6 +1,6 @@
 # Manual Test Cases
 
-1. Open Visual Studio 2026 Insiders.
+1. Open Visual Studio 2022 17.14+ or Visual Studio 2026.
 2. Install or debug the VSIX in the Experimental Instance.
 3. Open an ASP.NET Core solution.
 4. Confirm the extension loads without error.
