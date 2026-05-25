@@ -70,6 +70,16 @@ dotnet build
 
 The generated VSIX is emitted under `bin\Debug\net472`.
 
+## Regenerate Folder Image Assets
+
+When SVGs under `assets/icons/folders` or `assets/icons/foldersOpen` change, regenerate the packaged XAML and PNG image catalog assets:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File tools\Generate-FolderIconAssets.ps1
+```
+
+The generator keeps the output canvas at 16x16, adds 0.5px visual padding so folders align closer to Visual Studio's default folder size, and renders the SVG folder plus overlay glyph layers from the source files.
+
 ## Run In Experimental Instance
 
 Open the solution in Visual Studio 2026 Insiders and use the standard VSIX debug profile, or run Visual Studio with the Experimental hive after building:

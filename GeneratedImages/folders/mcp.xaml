@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#546e7a" Geometry="m13.748 4.354-1.288-1.072a2 2 0 0 0-1.28-0.464h-7.276a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2v-14a2 2 0 0 0-2-2h-12.876a2 2 0 0 1-1.28-0.464" />
+      <GeometryDrawing Brush="#546e7a"><GeometryDrawing.Geometry><PathGeometry Figures="M13.748,4.354L12.46,3.282A2,2,0,0,0,11.18,2.818L3.904,2.818A2,2,0,0,0,1.904,4.818L1.904,20.818A2,2,0,0,0,3.904,22.818L27.904,22.818A2,2,0,0,0,29.904,20.818L29.904,6.818A2,2,0,0,0,27.904,4.818L15.028,4.818A2,2,0,0,1,13.748,4.354" Transform="0.5,0,0,0.5,0.0478645,1.591" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

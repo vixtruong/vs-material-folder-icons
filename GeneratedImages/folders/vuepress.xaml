@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#41b883" Geometry="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8z" />
-      <GeometryDrawing Brush="#e8f5e9" Geometry="m14.924 9.1855c-0.82833 0-1.4997 0.6715-1.4997 1.5v9c0 0.8285 0.67137 1.5 1.4997 1.5h7.0006c0.82833 0 1.4997-0.6715 1.4997-1.5v-9c0-0.8285-0.67137-1.5-1.4997-1.5z" />
-      <GeometryDrawing Brush="#41b883" Geometry="m1.791 3.6914 10.209 17.619 10.209-17.533v-0.085938h-3.9688l-6.1816 10.615-6.1523-10.615z" />
-      <GeometryDrawing Brush="#35495e" Geometry="m5.9072 3.6914 6.1521 10.617 6.1809-10.617h-3.7228l-2.4337 4.1783-2.4226-4.1783z" />
+      <GeometryDrawing Brush="#41b883"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,19.097,2.903,20,4,20L20,20C21.097,20,22,19.097,22,18L22,8C22,6.89,21.1,6,20,6L12,6z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#e8f5e9"><GeometryDrawing.Geometry><PathGeometry Figures="M14.924,9.1855C14.09567,9.1855,13.4243,9.857,13.4243,10.6855L13.4243,19.6855C13.4243,20.514,14.09567,21.1855,14.924,21.1855L21.9246,21.1855C22.75293,21.1855,23.4243,20.514,23.4243,19.6855L23.4243,10.6855C23.4243,9.857,22.75293,9.1855,21.9246,9.1855z" Transform="0.666666666666667,0,0,0.666666666666667,0.20706,-0.2757" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#41b883"><GeometryDrawing.Geometry><PathGeometry Figures="M1.791,3.6914L12,21.3104 22.209,3.7774 22.209,3.691462 18.2402,3.691462 12.0586,14.306462 5.9063,3.691462z" Transform="0.227026666666667,0,0,0.227026666666667,9.76506,7.00963333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#35495e"><GeometryDrawing.Geometry><PathGeometry Figures="M5.9072,3.6914L12.0593,14.3084 18.2402,3.6914 14.5174,3.6914 12.0837,7.8697 9.6611,3.6914z" Transform="0.227026666666667,0,0,0.227026666666667,9.76506,7.00963333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

@@ -1,8 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#e24329" Geometry="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z" />
+      <GeometryDrawing Brush="#e24329"><GeometryDrawing.Geometry><PathGeometry Figures="M20,18L4,18 4,8 20,8 M20,6L12,6 10,4 4,4C2.89,4,2,4.89,2,6L2,18A2,2,0,0,0,4,20L20,20A2,2,0,0,0,22,18L22,8C22,6.89,21.1,6,20,6z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#FFCDD2"><GeometryDrawing.Geometry><PathGeometry Figures="M16,28.896L16,28.896 21.156,13.029 10.844,13.029 16,28.896z" Transform="0.333333333333333,0,0,0.333333333333333,6,6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#FFCDD2"><GeometryDrawing.Geometry><PathGeometry Figures="M16,28.896L10.844,13.029 3.619,13.029 16,28.896z" Transform="0.333333333333333,0,0,0.333333333333333,6,6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#FFCDD2"><GeometryDrawing.Geometry><PathGeometry Figures="M3.619,13.029L3.619,13.029 2.052,17.851A1.067,1.067,0,0,0,2.44,19.044L16,28.9 3.619,13.029z" Transform="0.333333333333333,0,0,0.333333333333333,6,6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#FFCDD2"><GeometryDrawing.Geometry><PathGeometry Figures="M3.619,13.029L10.844,13.029 7.739,3.473A0.534,0.534,0,0,0,6.724,3.473L3.619,13.029z" Transform="0.333333333333333,0,0,0.333333333333333,6,6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#FFCDD2"><GeometryDrawing.Geometry><PathGeometry Figures="M16,28.896L21.156,13.029 28.381,13.029 16,28.896z" Transform="0.333333333333333,0,0,0.333333333333333,6,6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#FFCDD2"><GeometryDrawing.Geometry><PathGeometry Figures="M28.381,13.029L28.381,13.029 29.948,17.851A1.067,1.067,0,0,1,29.56,19.044L16,28.9 28.381,13.029z" Transform="0.333333333333333,0,0,0.333333333333333,6,6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#FFCDD2"><GeometryDrawing.Geometry><PathGeometry Figures="M28.381,13.029L21.156,13.029 24.261,3.472A0.534,0.534,0,0,1,25.276,3.472L28.381,13.029z" Transform="0.333333333333333,0,0,0.333333333333333,6,6" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

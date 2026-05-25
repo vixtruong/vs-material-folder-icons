@@ -1,8 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#0277bd" Geometry="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z" />
+      <GeometryDrawing Brush="#0277bd"><GeometryDrawing.Geometry><PathGeometry Figures="M20,18L4,18 4,8 20,8 M20,6L12,6 10,4 4,4C2.89,4,2,4.89,2,6L2,18A2,2,0,0,0,4,20L20,20A2,2,0,0,0,22,18L22,8C22,6.89,21.1,6,20,6z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B3E5FC"><GeometryDrawing.Geometry><PathGeometry Figures="M61.1,31.4L141,31.4 123.4,0.899999999999999 78.7,0.899999999999999z" Transform="0.0591133333333333,0,0,0.0591133333333333,6.42826666666667,6.111" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B3E5FC"><GeometryDrawing.Geometry><PathGeometry Figures="M114.8,63.3L159,63.3 143.1,36.5 98.8,36.5" Transform="0.0591133333333333,0,0,0.0591133333333333,6.42826666666667,6.111" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B3E5FC"><GeometryDrawing.Geometry><PathGeometry Figures="M141.3,100.3L61,100.3 78.6,130.8 123.6,130.8z" Transform="0.0591133333333333,0,0,0.0591133333333333,6.42826666666667,6.111" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B3E5FC"><GeometryDrawing.Geometry><PathGeometry Figures="M78.6,130.8L41,65.8 79.1,0.800000000000011 37.9,0.800000000000011 0.399999999999991,65.8 37.9,130.8z" Transform="0.0591133333333333,0,0,0.0591133333333333,6.42826666666667,6.111" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B3E5FC"><GeometryDrawing.Geometry><PathGeometry Figures="M114.8,68.4L159,68.4 143.1,95.2 98.8,95.2" Transform="0.0591133333333333,0,0,0.0591133333333333,6.42826666666667,6.111" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

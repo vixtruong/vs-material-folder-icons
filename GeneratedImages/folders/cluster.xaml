@@ -1,8 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#26A69A" Geometry="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" />
+      <GeometryDrawing Brush="#26A69A"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,19.097,2.903,20,4,20L20,20C21.097,20,22,19.097,22,18L22,8A2,2,0,0,0,20,6L12,6 10,4z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B2DFDB"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.EllipseGeometry" Transform="0.452993333333333,0,0,0.452993333333333,6.14266666666667,5.82533333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B2DFDB"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.EllipseGeometry" Transform="0.452993333333333,0,0,0.452993333333333,6.14266666666667,5.82533333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#B2DFDB"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.EllipseGeometry" Transform="0.452993333333333,0,0,0.452993333333333,6.14266666666667,5.82533333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

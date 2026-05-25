@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#00796B" Geometry="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z" />
-      <GeometryDrawing Brush="#e0f2f1" Geometry="M17.8,20C17.4,21.2 16.3,22 15,22H5C3.3,22 2,20.7 2,19V18H5L14.2,18C14.6,19.2 15.7,20 17,20H17.8M19,2C20.7,2 22,3.3 22,5V6H20V5C20,4.4 19.6,4 19,4C18.4,4 18,4.4 18,5V18H17C16.4,18 16,17.6 16,17V16H5V5C5,3.3 6.3,2 8,2H19M8,6V8H15V6H8M8,10V12H14V10H8Z" />
+      <GeometryDrawing Brush="#00796B"><GeometryDrawing.Geometry><PathGeometry Figures="M20,18L4,18 4,8 20,8 M20,6L12,6 10,4 4,4C2.89,4,2,4.89,2,6L2,18A2,2,0,0,0,4,20L20,20A2,2,0,0,0,22,18L22,8C22,6.89,21.1,6,20,6z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#e0f2f1"><GeometryDrawing.Geometry><PathGeometry Figures="M17.8,20C17.4,21.2,16.3,22,15,22L5,22C3.3,22,2,20.7,2,19L2,18 5,18 14.2,18C14.6,19.2,15.7,20,17,20L17.8,20 M19,2C20.7,2,22,3.3,22,5L22,6 20,6 20,5C20,4.4 19.6,4 19,4 18.4,4 18,4.4 18,5L18,18 17,18C16.4,18,16,17.6,16,17L16,16 5,16 5,5C5,3.3,6.3,2,8,2L19,2 M8,6L8,8 15,8 15,6 8,6 M8,10L8,12 14,12 14,10 8,10z" Transform="0.433333333333333,0,0,0.433333333333333,6.06666666666667,5.2" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

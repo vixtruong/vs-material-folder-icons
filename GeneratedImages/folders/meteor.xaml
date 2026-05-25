@@ -1,8 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#AC7B69" Geometry="m10 4h-6c-1.11 0-2 0.89-2 2v12c0 1.097 0.903 2 2 2h16c1.097 0 2-0.903 2-2v-10c0-1.11-0.9-2-2-2h-8l-2-2z" />
+      <GeometryDrawing Brush="#AC7B69"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,19.097,2.903,20,4,20L20,20C21.097,20,22,19.097,22,18L22,8C22,6.89,21.1,6,20,6L12,6 10,4z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#EFEBE9"><GeometryDrawing.Geometry><PathGeometry Figures="M0,4.991L438.476,469.443C438.476,469.443 453.414,479.979 464.837,467.687 476.26,455.395 467.473,443.103 467.473,443.103L0,4.99000000000001z" Transform="0.02,0,0,0.02,5.6,5.6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#EFEBE9"><GeometryDrawing.Geometry><PathGeometry Figures="M138.836,48.89L472.745,408.862C472.745,408.862 487.683,419.398 499.106,407.106 510.529,394.814 501.742,382.522 501.742,382.522L138.835,48.889z" Transform="0.02,0,0,0.02,5.6,5.6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#EFEBE9"><GeometryDrawing.Geometry><PathGeometry Figures="M41.3,142.834L375.209,502.806C375.209,502.806 390.147,513.342 401.57,501.05 412.993,488.758 404.206,476.466 404.206,476.466L41.3,142.833z" Transform="0.02,0,0,0.02,5.6,5.6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#EFEBE9"><GeometryDrawing.Geometry><PathGeometry Figures="M256.204,86.644L489.486,338.135C489.486,338.135 499.923,345.496 507.903,336.908 515.883,328.32 509.744,319.733 509.744,319.733L256.202,86.644z" Transform="0.02,0,0,0.02,5.6,5.6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#EFEBE9"><GeometryDrawing.Geometry><PathGeometry Figures="M73.433,251.703L306.716,503.194C306.716,503.194 317.153,510.555 325.133,501.967 333.113,493.379 326.974,484.792 326.974,484.792L73.432,251.703z" Transform="0.02,0,0,0.02,5.6,5.6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#EFEBE9"><GeometryDrawing.Geometry><PathGeometry Figures="M376.087,141.078L481.818,255.409C481.818,255.409 486.981,258.858 490.929,254.834 494.877,250.81 491.84,246.786 491.84,246.786L376.087,141.078z" Transform="0.02,0,0,0.02,5.6,5.6" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#EFEBE9"><GeometryDrawing.Geometry><PathGeometry Figures="M131.806,367.597L237.538,481.928C237.538,481.928 242.7,485.377 246.649,481.353 250.598,477.329 247.56,473.305 247.56,473.305L131.807,367.597z" Transform="0.02,0,0,0.02,5.6,5.6" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

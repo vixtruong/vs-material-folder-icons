@@ -1,8 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#ec407a" Geometry="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8l-2-2z" />
+      <GeometryDrawing Brush="#ec407a"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,19.097,2.903,20,4,20L20,20C21.097,20,22,19.097,22,18L22,8C22,6.89,21.1,6,20,6L12,6 10,4z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="-0.022114176,-0.012768,0.012768,-0.022114176,10.49033952,14.3799508266667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="-0.022114176,-0.012768,0.012768,-0.022114176,8.441049984,22.0415169066667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="-0.022114176,-0.012768,0.012768,-0.022114176,18.15165024,12.3309421866667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="-0.012768,-0.022114176,0.022114176,-0.012768,9.55750944,11.0298829866667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="-0.012768,-0.022114176,0.022114176,-0.012768,13.11441888,17.1906983466667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="System.Windows.Media.RectangleGeometry" Transform="-0.012768,-0.022114176,0.022114176,-0.012768,9.5577648,23.3425761066667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="M369.5,297.9C359.9,314.6 338.5,320.3 321.8,310.7 305.1,301.1 299.4,279.7 309,263 318.6,246.3 340,240.6 356.7,250.2 373.5,259.9 379.2,281.2 369.5,297.9" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="M90.9,137C81.3,153.7 59.9,159.4 43.2,149.8 26.5,140.2 20.8,118.8 30.4,102.1 40,85.4 61.4,79.7 78.1,89.3 94.8,99 100.5,120.3 90.9,137" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="M30.5,297.9C20.9,281.2 26.6,259.9 43.3,250.2 60,240.6 81.3,246.3 91,263 100.6,279.7 94.9,301 78.2,310.7 61.4,320.3 40.1,314.6 30.5,297.9" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="M309.1,137C299.5,120.3 305.2,99 321.9,89.3 338.6,79.7 359.9,85.4 369.6,102.1 379.2,118.8 373.5,140.1 356.8,149.8 340.1,159.4 318.7,153.7 309.1,137" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="M200,395.8C180.7,395.8 165.1,380.2 165.1,360.9 165.1,341.6 180.7,326 200,326 219.3,326 234.9,341.6 234.9,360.9 234.9,380.1 219.3,395.8 200,395.8" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#f8bbd0"><GeometryDrawing.Geometry><PathGeometry Figures="M200,74C180.7,74 165.1,58.4 165.1,39.1 165.1,19.8 180.7,4.2 200,4.2 219.3,4.2 234.9,19.8 234.9,39.1 234.9,58.4 219.3,74 200,74" Transform="0.025536,0,0,0.025536,6.3198,5.10246666666667" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>

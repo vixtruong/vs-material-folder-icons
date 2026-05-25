@@ -1,8 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <DrawingImage.Drawing>
     <DrawingGroup>
-      <GeometryDrawing Brush="#47C5FB" Geometry="M10 4H4C2.89 4 2 4.89 2 6V18C2 18.5304 2.21071 19.0391 2.58579 19.4142C2.96086 19.7893 3.46957 20 4 20H20C20.5304 20 21.0391 19.7893 21.4142 19.4142C21.7893 19.0391 22 18.5304 22 18V8C22 6.89 21.1 6 20 6H12L10 4Z" />
+      <GeometryDrawing Brush="#47C5FB"><GeometryDrawing.Geometry><PathGeometry Figures="M10,4L4,4C2.89,4,2,4.89,2,6L2,18C2,18.5304 2.21071,19.0391 2.58579,19.4142 2.96086,19.7893 3.46957,20 4,20L20,20C20.5304,20 21.0391,19.7893 21.4142,19.4142 21.7893,19.0391 22,18.5304 22,18L22,8C22,6.89,21.1,6,20,6L12,6 10,4z" Transform="0.666666666666667,0,0,0.666666666666667,0,0" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#bbdefb"><GeometryDrawing.Geometry><PathGeometry Figures="M12.9166,9.5L13.7916,16.7917 11.4528,14.4528C11.106,14.106,11.0129,13.579,11.2206,13.1345L12.9166,9.5z" Transform="0.666666666666667,0,0,0.666666666666667,1.33333333333333,1.33333333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#bbdefb"><GeometryDrawing.Geometry><PathGeometry Figures="M17.9681,7.84308C17.7216,7.59662 17.3876,7.45837 17.0394,7.45837 16.8221,7.45837 16.608,7.51233 16.4167,7.61529L12.9167,9.50004 12.9167,15.4334C12.9167,15.7429,13.0395,16.0395,13.2585,16.2582L13.7917,16.7917 20.2084,16.7917 20.2084,15.3334 22.25,12.125 17.9681,7.84308z" Transform="0.666666666666667,0,0,0.666666666666667,1.33333333333333,1.33333333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#bbdefb"><GeometryDrawing.Geometry><PathGeometry Figures="M12.9167,9.5L19.1417,9.5C19.4512,9.5,19.7478,9.62279,19.9666,9.84183L22.25,12.125 22.25,16.7917 20.2084,16.7917 12.9167,9.5z" Transform="0.666666666666667,0,0,0.666666666666667,1.33333333333333,1.33333333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
+      <GeometryDrawing Brush="#bbdefb"><GeometryDrawing.Geometry><PathGeometry Figures="M20.2084,16.7916L13.7917,16.7916 15.5417,18.5416 20.2084,18.5416 20.2084,16.7916z" Transform="0.666666666666667,0,0,0.666666666666667,1.33333333333333,1.33333333333333" /></GeometryDrawing.Geometry></GeometryDrawing>
     </DrawingGroup>
   </DrawingImage.Drawing>
 </DrawingImage>
