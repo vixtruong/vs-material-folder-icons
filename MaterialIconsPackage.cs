@@ -6,6 +6,7 @@ using MaterialFolderIcons.VisualStudio.Assets;
 using MaterialFolderIcons.VisualStudio.Integration;
 using MaterialFolderIcons.VisualStudio.Logging;
 using MaterialFolderIcons.VisualStudio.Options;
+using MaterialFolderIcons.VisualStudio.Rendering;
 using MaterialFolderIcons.VisualStudio.Resolution;
 using Microsoft.VisualStudio.Shell;
 
@@ -18,6 +19,7 @@ namespace MaterialFolderIcons.VisualStudio
     public sealed class MaterialIconsPackage : AsyncPackage
     {
         private SolutionExplorerFolderIconService? solutionExplorerFolderIconService;
+        private SvgIconHandleCache? iconHandleCache;
 
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
@@ -45,9 +47,13 @@ namespace MaterialFolderIcons.VisualStudio
 
             var aliases = DefaultFolderIconAliases.Build(catalog.ClosedIconKeys);
             var customMappings = await CustomFolderIconMappings.LoadAsync(options.CustomMappingJsonPath, catalog.ClosedIconKeys, logger);
-            _ = new FolderIconResolver(catalog, aliases, customMappings);
+            var resolver = new FolderIconResolver(catalog, aliases, customMappings);
 
-            await logger.InformationAsync("CPS project tree icon provider is registered through the VSIX MEF component.");
+            iconHandleCache = new SvgIconHandleCache();
+            solutionExplorerFolderIconService = new SolutionExplorerFolderIconService(this, logger, iconHandleCache);
+            await solutionExplorerFolderIconService.InitializeAsync(catalog, resolver, cancellationToken);
+
+            await logger.InformationAsync("CPS project tree icon provider is registered through the VSIX MEF component; hierarchy fallback service is active.");
         }
 
         protected override void Dispose(bool disposing)
@@ -58,6 +64,8 @@ namespace MaterialFolderIcons.VisualStudio
             {
                 solutionExplorerFolderIconService?.Dispose();
                 solutionExplorerFolderIconService = null;
+                iconHandleCache?.Dispose();
+                iconHandleCache = null;
             }
 
             base.Dispose(disposing);

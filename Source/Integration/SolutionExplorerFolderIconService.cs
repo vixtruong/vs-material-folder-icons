@@ -408,6 +408,7 @@ namespace MaterialFolderIcons.VisualStudio.Integration
 
             public int OnInvalidateIcon(IntPtr hicon)
             {
+                ThreadHelper.JoinableTaskFactory.RunAsync(async () => await owner.ApplyToHierarchyAsync(hierarchy, CancellationToken.None)).FileAndForget("MaterialFolderIcons/OnInvalidateIcon");
                 return VSConstants.S_OK;
             }
 
