@@ -99,7 +99,14 @@ Build the project, then open the `.vsix` file from `bin\Debug\net472` with the V
 - [Architecture](docs/ARCHITECTURE.md)
 - [Icon Asset Report](docs/ICON_ASSET_REPORT.md)
 - [Manual Test Cases](docs/MANUAL_TESTS.md)
+- [Publishing](docs/PUBLISHING.md)
 - [Icon Preview](docs/icon-preview.html)
+
+## License And Attribution
+
+This extension includes folder icon assets derived from [Atom Material Icons for JetBrains](https://github.com/AtomMaterialUI/a-file-icon-idea), licensed under the MIT License.
+
+The bundled SVG assets and generated PNG resources retain the upstream MIT copyright and permission notice. See [Third-Party Notices](THIRD_PARTY_NOTICES.md).
 
 ## Current Limitations
 

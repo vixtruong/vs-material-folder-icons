@@ -4,6 +4,7 @@
     <Identity Id="MaterialFolderIcons.VisualStudio" Version="0.7.0" Language="en-US" Publisher="Material Folder Icons" />
     <DisplayName>Material Folder Icons for Visual Studio</DisplayName>
     <Description>Material-style folder icon infrastructure for Visual Studio Solution Explorer. This extension scans bundled folder SVG assets and resolves folder-name mappings without touching file icons.</Description>
+    <Icon>Resources\ExtensionIcon.png</Icon>
     <Tags>Visual Studio;Solution Explorer;Folder Icons;Material Icons;VSIX</Tags>
   </Metadata>
   <Installation>
