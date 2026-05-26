@@ -1,6 +1,8 @@
 param(
     [string]$Root = (Split-Path -Parent $PSScriptRoot),
-    [double]$Padding = 0.00
+    [double]$Padding = 0.00,
+    [int]$IconSize = 16,
+    [string]$OutputRoot = ''
 )
 
 Set-StrictMode -Version Latest
@@ -9,7 +11,7 @@ $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName PresentationCore
 Add-Type -AssemblyName WindowsBase
 
-$iconSize = 16.0
+$iconSize = [double]$IconSize
 $svgCoordinateSize = 24.0
 $svgNamespace = @{ svg = 'http://www.w3.org/2000/svg' }
 
@@ -284,7 +286,7 @@ function Convert-SvgToPng([string]$svgPath, [string]$pngPath) {
         $visualContext.Close()
     }
 
-    $bitmap = [Windows.Media.Imaging.RenderTargetBitmap]::new(16, 16, 96, 96, [Windows.Media.PixelFormats]::Pbgra32)
+    $bitmap = [Windows.Media.Imaging.RenderTargetBitmap]::new($IconSize, $IconSize, 96, 96, [Windows.Media.PixelFormats]::Pbgra32)
     $bitmap.Render($visual)
 
     $encoder = [Windows.Media.Imaging.PngBitmapEncoder]::new()
@@ -298,7 +300,7 @@ function Convert-SvgToPng([string]$svgPath, [string]$pngPath) {
     }
 }
 
-$pngRoot = Join-Path $Root 'GeneratedImagesPng'
+$pngRoot = if ([string]::IsNullOrWhiteSpace($OutputRoot)) { Join-Path $Root 'GeneratedImagesPng' } else { $OutputRoot }
 
 foreach ($relativeFolder in @('folders', 'foldersOpen')) {
     $sourceFolder = Join-Path (Join-Path $Root 'assets\icons') $relativeFolder

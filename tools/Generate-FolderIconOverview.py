@@ -4,22 +4,20 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CLOSED_DIR = ROOT / "GeneratedImagesPng" / "folders"
-OPEN_DIR = ROOT / "GeneratedImagesPng" / "foldersOpen"
+HIGH_RES_CLOSED_DIR = ROOT / "obj" / "OverviewImagesPng" / "folders"
+DEFAULT_CLOSED_DIR = ROOT / "GeneratedImagesPng" / "folders"
 OUTPUT = ROOT / "docs" / "images" / "folder-icons-overview.png"
 
-WIDTH = 3840
-COLUMNS = 12
-HEADER_HEIGHT = 184
-TILE_WIDTH = WIDTH // COLUMNS
-TILE_HEIGHT = 98
-ICON_SIZE = 48
+WIDTH = 1920
+HEIGHT = 1080
+COLUMNS = 29
+HEADER_HEIGHT = 88
+ICON_SIZE = 40
 GRID = "#dde4ee"
 BACKGROUND = "#f8fafc"
 PANEL = "#ffffff"
 TEXT = "#122033"
 MUTED = "#58687d"
-META = "#6b7b91"
 
 
 def load_font(name: str, size: int) -> ImageFont.FreeTypeFont:
@@ -27,16 +25,15 @@ def load_font(name: str, size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(font_path), size=size)
 
 
-TITLE_FONT = load_font("segoeuib.ttf", 54)
-SUBTITLE_FONT = load_font("segoeui.ttf", 27)
-NAME_FONT = load_font("segoeuib.ttf", 21)
-META_FONT = load_font("segoeui.ttf", 15)
+TITLE_FONT = load_font("segoeuib.ttf", 32)
+SUBTITLE_FONT = load_font("segoeui.ttf", 16)
+NAME_FONT = load_font("segoeuib.ttf", 10)
 
 
 def resize_icon(path: Path) -> Image.Image:
     return Image.open(path).convert("RGBA").resize(
         (ICON_SIZE, ICON_SIZE),
-        Image.Resampling.NEAREST,
+        Image.Resampling.LANCZOS,
     )
 
 
@@ -57,50 +54,46 @@ def fit_text(draw: ImageDraw.ImageDraw, value: str, font: ImageFont.FreeTypeFont
 
 
 def main() -> None:
-    names = sorted(path.stem for path in CLOSED_DIR.glob("*.png"))
+    closed_dir = HIGH_RES_CLOSED_DIR if HIGH_RES_CLOSED_DIR.exists() else DEFAULT_CLOSED_DIR
+    names = sorted(path.stem for path in closed_dir.glob("*.png"))
     rows = (len(names) + COLUMNS - 1) // COLUMNS
-    height = HEADER_HEIGHT + (rows * TILE_HEIGHT)
+    tile_width = WIDTH // COLUMNS
+    tile_height = (HEIGHT - HEADER_HEIGHT) // rows
 
-    image = Image.new("RGB", (WIDTH, height), BACKGROUND)
+    image = Image.new("RGB", (WIDTH, HEIGHT), BACKGROUND)
     draw = ImageDraw.Draw(image)
 
     draw.rectangle((0, 0, WIDTH, HEADER_HEIGHT), fill=PANEL)
     draw.line((0, HEADER_HEIGHT - 1, WIDTH, HEADER_HEIGHT - 1), fill=GRID, width=2)
-    draw.text((72, 54), "Material Folder Icons for Visual Studio", font=TITLE_FONT, fill=TEXT)
+    draw.text((32, 22), "Material Folder Icons for Visual Studio", font=TITLE_FONT, fill=TEXT)
     draw.text(
-        (72, 116),
-        f"{len(names)} bundled closed folder icons. Matching open-folder variants are included in the VSIX.",
+        (32, 58),
+        f"{len(names)} bundled closed folder icons. FullHD overview renders folder icons only.",
         font=SUBTITLE_FONT,
         fill=MUTED,
     )
 
     closed_cache = {}
-    open_cache = {}
     for index, name in enumerate(names):
         row = index // COLUMNS
         column = index % COLUMNS
-        x = column * TILE_WIDTH
-        y = HEADER_HEIGHT + (row * TILE_HEIGHT)
+        x = column * tile_width
+        y = HEADER_HEIGHT + (row * tile_height)
 
-        draw.rectangle((x, y, x + TILE_WIDTH, y + TILE_HEIGHT), fill=PANEL, outline=GRID, width=2)
+        draw.rectangle((x, y, x + tile_width, y + tile_height), fill=PANEL, outline=GRID, width=1)
 
-        closed_cache[name] = closed_cache.get(name) or resize_icon(CLOSED_DIR / f"{name}.png")
-        image.paste(closed_cache[name], (x + 24, y + 25), closed_cache[name])
+        closed_cache[name] = closed_cache.get(name) or resize_icon(closed_dir / f"{name}.png")
+        icon_x = x + ((tile_width - ICON_SIZE) // 2)
+        image.paste(closed_cache[name], (icon_x, y + 8), closed_cache[name])
 
-        open_path = OPEN_DIR / f"{name}.png"
-        has_open = open_path.exists()
-        if has_open:
-            open_cache[name] = open_cache.get(name) or resize_icon(open_path)
-            image.paste(open_cache[name], (x + 78, y + 25), open_cache[name])
-
-        label = fit_text(draw, name, NAME_FONT, TILE_WIDTH - 154)
-        draw.text((x + 140, y + 30), label, font=NAME_FONT, fill=TEXT)
-        draw.text((x + 140, y + 62), "closed + open" if has_open else "closed only", font=META_FONT, fill=META)
+        label = fit_text(draw, name, NAME_FONT, tile_width - 8)
+        label_x = x + max(4, int((tile_width - draw.textlength(label, font=NAME_FONT)) / 2))
+        draw.text((label_x, y + ICON_SIZE + 11), label, font=NAME_FONT, fill=TEXT)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     image.save(OUTPUT, format="PNG", optimize=True)
     print(f"icons={len(names)}")
-    print(f"size={WIDTH}x{height}")
+    print(f"size={WIDTH}x{HEIGHT}")
     print(f"output={OUTPUT}")
 
 

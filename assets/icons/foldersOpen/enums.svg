@@ -1,0 +1,4 @@
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.4142" version="1.1" viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#F9A825" data-folderColor="Enums" d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"/>
+  <path d="M13 10.2h2v2h-2v-2zm3.5.3H23V12h-6.5v-1.5zM13 14h2v2h-2v-2zm3.5.3H23v1.5h-6.5v-1.5zM13 17.8h2v2h-2v-2zm3.5.3H23v1.5h-6.5v-1.5z" fill="#FFF9C4" data-folderIconColor="Enums"/>
+</svg>

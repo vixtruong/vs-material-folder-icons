@@ -1,0 +1,7 @@
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.4142" version="1.1"
+     viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <path d="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8l-2-2z"
+        fill="#FB8C00" fill-rule="nonzero" data-folderColor="Service"/>
+  <path d="M13 9h4v4h-1.2v2.2h3.4V13H18V9h4v4h-1.2v3.8h-5v-3.8H14.6v3.8h-1.4V13H12V9h1zm.4 1.2v1.6h2.2v-1.6h-2.2zm5 0v1.6h2.2v-1.6h-2.2zm-3.8 6.4v2.2h1.2v-2.2h-1.2z"
+        fill="#FFE0B2" data-folderIconColor="Service"/>
+</svg>

@@ -1,9 +1,9 @@
-﻿# Icon Asset Report
+# Icon Asset Report
 
 Generated from actual SVG files in assets/icons/folders and assets/icons/foldersOpen.
 
-- Closed folder SVG icons found: 351
-- Open folder SVG icons found: 351
+- Closed folder SVG icons found: 377
+- Open folder SVG icons found: 377
 - Icons in folders but not foldersOpen: 1
 - Icons in foldersOpen but not folders: 1
 
@@ -17,6 +17,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 
 ## Closed Folder Icon Keys
 
+- `abstractions`
 - `acf`
 - `acre`
 - `adapter`
@@ -35,15 +36,18 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `api`
 - `apollo`
 - `app`
+- `application`
 - `appstore`
 - `appwrite`
 - `archetype`
 - `archive`
+- `areas`
 - `article`
 - `arttext`
 - `assembly`
 - `astro`
 - `atom`
+- `attributes`
 - `audio`
 - `aurelia`
 - `automator`
@@ -75,6 +79,8 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `cnab`
 - `cobol`
 - `codesandbox`
+- `commands`
+- `common`
 - `components`
 - `composer`
 - `conductor`
@@ -98,6 +104,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `cypress`
 - `dapr`
 - `dart`
+- `data`
 - `db`
 - `debian`
 - `debug`
@@ -115,6 +122,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `download`
 - `drizzle`
 - `dropbox`
+- `dto`
 - `dub`
 - `dump`
 - `dvc`
@@ -124,17 +132,22 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `elixir`
 - `emacs`
 - `empties`
+- `entity`
+- `enums`
 - `env`
 - `error`
 - `eslint`
 - `events`
 - `examples`
+- `exceptions`
 - `exclude`
 - `expo`
+- `extension`
 - `faq`
 - `fastlane`
 - `favorites`
 - `features`
+- `filters`
 - `firebase`
 - `fixtures`
 - `flow`
@@ -158,6 +171,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `grunt`
 - `guard`
 - `gulp`
+- `handlers`
 - `hasura`
 - `haxelib`
 - `helm`
@@ -171,9 +185,11 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `images`
 - `include`
 - `info`
+- `infrastructure`
 - `init`
 - `injection`
 - `interceptor`
+- `interfaces`
 - `internal`
 - `ios`
 - `iosapp`
@@ -203,6 +219,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `mac`
 - `mailers`
 - `main`
+- `mappings`
 - `maps`
 - `markdown`
 - `math`
@@ -214,6 +231,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `meteor`
 - `metro`
 - `middleware`
+- `migrations`
 - `mindsdb`
 - `mjml`
 - `mobile`
@@ -235,14 +253,17 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `nx`
 - `obsidian`
 - `openshift`
+- `options`
 - `orders`
 - `osx`
 - `other`
 - `packages`
+- `pages`
 - `parcel`
 - `pdf`
 - `pdm`
 - `perl`
+- `persistence`
 - `php`
 - `pinia`
 - `pipe`
@@ -278,6 +299,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `redux-stores`
 - `redwood`
 - `relay`
+- `repo`
 - `resolver`
 - `resource`
 - `reviews`
@@ -297,6 +319,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `seed`
 - `server`
 - `serverless`
+- `service`
 - `shader`
 - `shared`
 - `skeletons`
@@ -344,6 +367,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `upload`
 - `users`
 - `vagrant`
+- `validators`
 - `venv`
 - `vercel`
 - `verdaccio`
@@ -366,11 +390,14 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `woocommerce`
 - `woodpecker`
 - `wordpress`
+- `workers`
+- `wwwroot`
 - `xstate`
 - `yarn`
 
 ## Open Folder Icon Keys
 
+- `abstractions`
 - `acf`
 - `acre`
 - `adapter`
@@ -389,15 +416,18 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `api`
 - `apollo`
 - `app`
+- `application`
 - `appstore`
 - `appwrite`
 - `archetype`
 - `archive`
+- `areas`
 - `article`
 - `arttext`
 - `assembly`
 - `astro`
 - `atom`
+- `attributes`
 - `audio`
 - `aurelia`
 - `automator`
@@ -429,6 +459,8 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `cnab`
 - `cobol`
 - `codesandbox`
+- `commands`
+- `common`
 - `components`
 - `composer`
 - `conductor`
@@ -453,6 +485,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `cypress`
 - `dapr`
 - `dart`
+- `data`
 - `db`
 - `debian`
 - `debug`
@@ -470,6 +503,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `download`
 - `drizzle`
 - `dropbox`
+- `dto`
 - `dub`
 - `dump`
 - `dvc`
@@ -479,17 +513,22 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `elixir`
 - `emacs`
 - `empties`
+- `entity`
+- `enums`
 - `env`
 - `error`
 - `eslint`
 - `events`
 - `examples`
+- `exceptions`
 - `exclude`
 - `expo`
+- `extension`
 - `faq`
 - `fastlane`
 - `favorites`
 - `features`
+- `filters`
 - `firebase`
 - `fixtures`
 - `flow`
@@ -513,6 +552,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `grunt`
 - `guard`
 - `gulp`
+- `handlers`
 - `hasura`
 - `haxelib`
 - `helm`
@@ -526,9 +566,11 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `images`
 - `include`
 - `info`
+- `infrastructure`
 - `init`
 - `injection`
 - `interceptor`
+- `interfaces`
 - `internal`
 - `ios`
 - `iosapp`
@@ -558,6 +600,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `mac`
 - `mailers`
 - `main`
+- `mappings`
 - `maps`
 - `markdown`
 - `math`
@@ -569,6 +612,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `meteor`
 - `metro`
 - `middleware`
+- `migrations`
 - `mindsdb`
 - `mjml`
 - `mobile`
@@ -590,14 +634,17 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `nx`
 - `obsidian`
 - `openshift`
+- `options`
 - `orders`
 - `osx`
 - `other`
 - `packages`
+- `pages`
 - `parcel`
 - `pdf`
 - `pdm`
 - `perl`
+- `persistence`
 - `php`
 - `pinia`
 - `pipe`
@@ -632,6 +679,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `redux-stores`
 - `redwood`
 - `relay`
+- `repo`
 - `resolver`
 - `resource`
 - `reviews`
@@ -651,6 +699,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `seed`
 - `server`
 - `serverless`
+- `service`
 - `shader`
 - `shared`
 - `skeletons`
@@ -698,6 +747,7 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `upload`
 - `users`
 - `vagrant`
+- `validators`
 - `venv`
 - `vercel`
 - `verdaccio`
@@ -720,6 +770,8 @@ Generated from actual SVG files in assets/icons/folders and assets/icons/folders
 - `woocommerce`
 - `woodpecker`
 - `wordpress`
+- `workers`
+- `wwwroot`
 - `xstate`
 - `yarn`
 
