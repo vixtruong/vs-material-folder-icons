@@ -18,12 +18,14 @@ This first pass implements the asset and resolution foundation:
 - Logs initialization, discovery counts, invalid custom mappings, and Visual Studio API limitations to the Visual Studio ActivityLog.
 - Packages the folder SVG directories plus generated PNG image resources into the VSIX.
 
-The current VSIX now attempts native replacement of existing Solution Explorer folder nodes by rendering the bundled SVG files to cached `HICON` handles and setting public hierarchy properties:
+The current VSIX uses the Visual Studio Image Service for folder icons. It packages generated PNG resources through `MaterialFolderIcons.imagemanifest`, applies custom `ProjectImageMoniker` values through the CPS project tree provider, and uses the same moniker IDs in the hierarchy fallback path when a project hierarchy explicitly supports icon monikers:
 
-- `VSHPROPID_IconHandle`
-- `VSHPROPID_OpenFolderIconHandle`
+- `VSHPROPID_IconMonikerGuid`
+- `VSHPROPID_IconMonikerId`
+- `VSHPROPID_OpenFolderIconMonikerGuid`
+- `VSHPROPID_OpenFolderIconMonikerId`
 
-Some Visual Studio project systems may reject those external `SetProperty` calls. When that happens, the extension logs a warning instead of faking success.
+Some Visual Studio project systems may reject those external `SetProperty` calls or not advertise `VSHPROPID_SupportsIconMonikers`. When that happens, the extension leaves Visual Studio's default folder icon in place.
 
 ## Visual Studio Support
 
@@ -115,7 +117,7 @@ The bundled SVG assets and generated PNG resources retain the upstream MIT copyr
 ## Current Limitations
 
 - Native replacement is attempted with public hierarchy icon properties, but C# SDK-style project systems can still reject external icon property changes.
-- Open folder icons are scanned, rendered, and applied through `VSHPROPID_OpenFolderIconHandle` when the hierarchy accepts it.
+- Open folder icons are scanned, included in the image manifest, and applied through `VSHPROPID_OpenFolderIconMonikerGuid` / `VSHPROPID_OpenFolderIconMonikerId` when the hierarchy accepts icon monikers.
 - Visual Studio options are basic `DialogPage` options; a richer reset command and custom icon folder support are roadmap items.
 - SVG files are packaged unchanged. No generated placeholder icons are created.
 

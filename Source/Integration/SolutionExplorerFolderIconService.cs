@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using MaterialFolderIcons.VisualStudio.Assets;
+using MaterialFolderIcons.VisualStudio.Generated;
 using MaterialFolderIcons.VisualStudio.Logging;
-using MaterialFolderIcons.VisualStudio.Rendering;
 using MaterialFolderIcons.VisualStudio.Resolution;
 using Microsoft.VisualStudio;
+using Microsoft.VisualStudio.ProjectSystem;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 
@@ -19,17 +19,15 @@ namespace MaterialFolderIcons.VisualStudio.Integration
     {
         private readonly AsyncPackage package;
         private readonly ActivityLogLogger logger;
-        private readonly SvgIconHandleCache iconHandleCache;
         private readonly List<HierarchySubscription> hierarchySubscriptions = new List<HierarchySubscription>();
         private FolderIconResolver? resolver;
         private IVsSolution? solution;
         private uint solutionEventsCookie;
 
-        public SolutionExplorerFolderIconService(AsyncPackage package, ActivityLogLogger logger, SvgIconHandleCache iconHandleCache)
+        public SolutionExplorerFolderIconService(AsyncPackage package, ActivityLogLogger logger)
         {
             this.package = package;
             this.logger = logger;
-            this.iconHandleCache = iconHandleCache;
         }
 
         public async Task InitializeAsync(FolderIconAssetCatalog catalog, FolderIconResolver folderIconResolver, CancellationToken cancellationToken)
@@ -160,7 +158,15 @@ namespace MaterialFolderIcons.VisualStudio.Integration
             while (enumHierarchies.Next(1, hierarchies, out fetched) == VSConstants.S_OK && fetched == 1)
             {
                 SubscribeHierarchy(hierarchies[0]);
-                await ApplyToHierarchyAsync(hierarchies[0], cancellationToken);
+
+                try
+                {
+                    await ApplyToHierarchyAsync(hierarchies[0], cancellationToken);
+                }
+                catch (Exception ex)
+                {
+                    await logger.WarningAsync($"Skipping a project hierarchy because folder icon application failed: {ex.Message}");
+                }
             }
         }
 
@@ -169,6 +175,11 @@ namespace MaterialFolderIcons.VisualStudio.Integration
             await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
 
             if (resolver == null || hierarchy == null)
+            {
+                return;
+            }
+
+            if (!SupportsIconMonikers(hierarchy, VSConstants.VSITEMID_ROOT))
             {
                 return;
             }
@@ -212,24 +223,35 @@ namespace MaterialFolderIcons.VisualStudio.Integration
 
             try
             {
-                var closedHandle = iconHandleCache.GetOrCreateIconHandle(resolution.ClosedIconPath);
-                var closedResult = hierarchy.SetProperty(itemId, (int)__VSHPROPID.VSHPROPID_IconHandle, closedHandle);
-
-                var openResult = VSConstants.S_FALSE;
-                var openIconPath = resolution.OpenIconPath;
-                if (!string.IsNullOrWhiteSpace(openIconPath) && File.Exists(openIconPath))
+                if (!MaterialFolderIconMonikers.Closed.TryGetValue(resolution.IconKey, out var closedMoniker))
                 {
-                    var openHandle = iconHandleCache.GetOrCreateIconHandle(openIconPath!);
-                    openResult = hierarchy.SetProperty(itemId, (int)__VSHPROPID.VSHPROPID_OpenFolderIconHandle, openHandle);
+                    return false;
                 }
 
-                var applied = ErrorHandler.Succeeded(closedResult) || ErrorHandler.Succeeded(openResult);
-                if (applied)
+                var closedApplied = TryApplyMoniker(
+                    hierarchy,
+                    itemId,
+                    closedMoniker,
+                    (int)__VSHPROPID8.VSHPROPID_IconMonikerGuid,
+                    (int)__VSHPROPID8.VSHPROPID_IconMonikerId);
+
+                var openApplied = false;
+                if (closedApplied && MaterialFolderIconMonikers.Open.TryGetValue(resolution.IconKey, out var openMoniker))
+                {
+                    openApplied = TryApplyMoniker(
+                        hierarchy,
+                        itemId,
+                        openMoniker,
+                        (int)__VSHPROPID8.VSHPROPID_OpenFolderIconMonikerGuid,
+                        (int)__VSHPROPID8.VSHPROPID_OpenFolderIconMonikerId);
+                }
+
+                if (closedApplied || openApplied)
                 {
                     RefreshHierarchyItem(hierarchy, itemId);
                 }
 
-                return applied;
+                return closedApplied || openApplied;
             }
             catch (Exception ex)
             {
@@ -239,16 +261,143 @@ namespace MaterialFolderIcons.VisualStudio.Integration
             }
         }
 
+        private static bool SupportsIconMonikers(IVsHierarchy hierarchy, uint itemId)
+        {
+            ThreadHelper.ThrowIfNotOnUIThread();
+
+            return ErrorHandler.Succeeded(hierarchy.GetProperty(itemId, (int)__VSHPROPID8.VSHPROPID_SupportsIconMonikers, out var value)) &&
+                IsTruthy(value);
+        }
+
+        private static bool IsTruthy(object? value)
+        {
+            if (value is bool boolValue)
+            {
+                return boolValue;
+            }
+
+            if (value is int intValue)
+            {
+                return intValue != 0;
+            }
+
+            if (value is short shortValue)
+            {
+                return shortValue != 0;
+            }
+
+            return false;
+        }
+
+        private static bool TryApplyMoniker(
+            IVsHierarchy hierarchy,
+            uint itemId,
+            ProjectImageMoniker moniker,
+            int monikerGuidPropertyId,
+            int monikerIdPropertyId)
+        {
+            ThreadHelper.ThrowIfNotOnUIThread();
+
+            if (!TryReadMoniker(hierarchy, itemId, monikerGuidPropertyId, monikerIdPropertyId, out var originalGuid, out var originalId))
+            {
+                return false;
+            }
+
+            var idResult = hierarchy.SetProperty(itemId, monikerIdPropertyId, moniker.Id);
+            var guid = moniker.Guid;
+            var guidResult = ErrorHandler.Succeeded(idResult)
+                ? hierarchy.SetGuidProperty(itemId, monikerGuidPropertyId, ref guid)
+                : VSConstants.S_FALSE;
+
+            if (ErrorHandler.Succeeded(idResult) && ErrorHandler.Succeeded(guidResult))
+            {
+                return true;
+            }
+
+            RestoreMoniker(hierarchy, itemId, monikerGuidPropertyId, monikerIdPropertyId, originalGuid, originalId);
+            return false;
+        }
+
+        private static bool TryReadMoniker(
+            IVsHierarchy hierarchy,
+            uint itemId,
+            int monikerGuidPropertyId,
+            int monikerIdPropertyId,
+            out Guid guid,
+            out int id)
+        {
+            ThreadHelper.ThrowIfNotOnUIThread();
+
+            guid = Guid.Empty;
+            id = 0;
+
+            if (ErrorHandler.Failed(hierarchy.GetGuidProperty(itemId, monikerGuidPropertyId, out guid)) ||
+                ErrorHandler.Failed(hierarchy.GetProperty(itemId, monikerIdPropertyId, out var value)) ||
+                !TryConvertToInt32(value, out id))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        private static bool TryConvertToInt32(object? value, out int result)
+        {
+            result = 0;
+
+            if (value is int intValue)
+            {
+                result = intValue;
+                return true;
+            }
+
+            if (value is uint uintValue && uintValue <= int.MaxValue)
+            {
+                result = (int)uintValue;
+                return true;
+            }
+
+            try
+            {
+                result = Convert.ToInt32(value);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private static void RestoreMoniker(
+            IVsHierarchy hierarchy,
+            uint itemId,
+            int monikerGuidPropertyId,
+            int monikerIdPropertyId,
+            Guid originalGuid,
+            int originalId)
+        {
+            ThreadHelper.ThrowIfNotOnUIThread();
+
+            hierarchy.SetProperty(itemId, monikerIdPropertyId, originalId);
+            hierarchy.SetGuidProperty(itemId, monikerGuidPropertyId, ref originalGuid);
+        }
+
         private static IEnumerable<uint> EnumerateHierarchyItems(IVsHierarchy hierarchy, uint rootItemId)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
 
             var stack = new Stack<uint>();
+            var visited = new HashSet<uint> { rootItemId };
             PushChildren(hierarchy, rootItemId, stack);
 
             while (stack.Count > 0)
             {
                 var itemId = stack.Pop();
+                if (!visited.Add(itemId))
+                {
+                    continue;
+                }
+
                 yield return itemId;
                 PushChildren(hierarchy, itemId, stack);
             }
@@ -275,7 +424,14 @@ namespace MaterialFolderIcons.VisualStudio.Integration
                 return VSConstants.VSITEMID_NIL;
             }
 
-            return value is int intValue ? unchecked((uint)intValue) : Convert.ToUInt32(value);
+            try
+            {
+                return value is int intValue ? unchecked((uint)intValue) : Convert.ToUInt32(value);
+            }
+            catch
+            {
+                return VSConstants.VSITEMID_NIL;
+            }
         }
 
         private static string? GetItemName(IVsHierarchy hierarchy, uint itemId)
@@ -408,7 +564,6 @@ namespace MaterialFolderIcons.VisualStudio.Integration
 
             public int OnInvalidateIcon(IntPtr hicon)
             {
-                ThreadHelper.JoinableTaskFactory.RunAsync(async () => await owner.ApplyToHierarchyAsync(hierarchy, CancellationToken.None)).FileAndForget("MaterialFolderIcons/OnInvalidateIcon");
                 return VSConstants.S_OK;
             }
 

@@ -49,11 +49,10 @@ This keeps aliases useful without allowing accidental mappings to missing SVG fi
 
 ## Visual Studio Integration
 
-`SolutionExplorerFolderIconService` enumerates loaded project hierarchies, identifies physical and virtual folder nodes, resolves their names, renders SVG assets to cached `HICON` handles, and attempts to apply them with public hierarchy properties. It also subscribes to solution and hierarchy events so project load, folder creation, rename, and invalidation can re-run icon application.
+`SolutionExplorerFolderIconService` enumerates loaded project hierarchies, identifies physical and virtual folder nodes, resolves their names, and attempts to apply the packaged image-manifest monikers through public hierarchy properties. It only touches hierarchies that advertise `VSHPROPID_SupportsIconMonikers`, and it rolls back partial GUID/ID updates when a hierarchy rejects one side of a moniker pair.
 
 Microsoft documentation exposes:
 
-- `VSHPROPID_IconHandle` and `VSHPROPID_OpenFolderIconHandle`
 - `VSHPROPID_IconMonikerGuid` / `VSHPROPID_IconMonikerId`
 - `VSHPROPID_OpenFolderIconMonikerGuid` / `VSHPROPID_OpenFolderIconMonikerId`
 - CPS `IProjectTreeModifier` and project tree image moniker patterns for project systems
@@ -62,11 +61,11 @@ Those APIs are stable public hierarchy APIs, but a project hierarchy is still al
 
 ## Open Folder Icons
 
-Open folder SVGs are discovered and made available through `FolderIconResolution.OpenIconPath`. They are rendered and applied through `VSHPROPID_OpenFolderIconHandle` when the hierarchy accepts external icon handle properties.
+Open folder SVGs are discovered, rendered into generated PNG resources, and made available through `MaterialFolderIcons.imagemanifest`. The CPS provider and hierarchy fallback apply them through `VSHPROPID_OpenFolderIconMonikerGuid` / `VSHPROPID_OpenFolderIconMonikerId` when the hierarchy accepts icon monikers.
 
 ## Supported Project Types
 
-The intended first target is physical folders in C# SDK-style projects. Support depends on whether the active project hierarchy accepts external `VSHPROPID_IconHandle` and `VSHPROPID_OpenFolderIconHandle` updates.
+The intended first target is physical folders in C# SDK-style projects. Support depends on whether CPS accepts `IProjectTreePropertiesProvider` icon updates or the active project hierarchy supports external moniker property updates.
 
 ## Fallback Behavior
 

@@ -102,7 +102,7 @@ material-folder-icons-vs
 Version:
 
 ```text
-0.7.0
+1.0.6
 ```
 
 Publisher:
@@ -125,6 +125,34 @@ Material Folder Icons for Visual Studio improves Solution Explorer readability b
 The extension focuses only on folder icons. It does not replace file icons, does not modify source files, and does not change the project structure. Folder names are matched conservatively against bundled icon assets and validated aliases, so unknown folders keep Visual Studio's default behavior.
 
 This extension is built for Visual Studio 2022 17.14+ and Visual Studio 2026, and currently targets C# SDK-style project workflows first.
+```
+
+Release notes:
+
+```markdown
+## 1.0.6 - 2026-05-27
+
+### Fixed
+
+- Fixed folder icons disappearing after installing or enabling some other Visual Studio extensions.
+- Replaced the hierarchy fallback path that rendered SVG files into cached `HICON` handles with Visual Studio Image Service `ImageMoniker` updates.
+- Stopped reapplying icons from `OnInvalidateIcon`, which could fight with Visual Studio and other extensions when the Solution Explorer icon cache was invalidated.
+- Added rollback logic for hierarchy moniker updates so a folder node is restored if Visual Studio accepts only one side of the GUID/ID pair.
+- Skipped hierarchy fallback updates unless the project hierarchy explicitly advertises `VSHPROPID_SupportsIconMonikers`.
+- Hardened hierarchy traversal against invalid or unexpected item IDs from project systems or other extensions.
+
+### Changed
+
+- Bumped the extension and assembly version to `1.0.6`.
+- Changed the Material folder image catalog GUID to `{E45580F0-0E9E-40CA-9F97-39517ECBC951}` to avoid stale Visual Studio image cache entries or possible catalog conflicts from older builds.
+- Kept the CPS project tree provider as the primary icon path for C# SDK-style projects.
+- Removed the unused `SvgIconHandleCache` renderer and the `System.Drawing` project reference.
+
+### Upgrade Notes
+
+- Uninstall older builds before installing `1.0.6`.
+- If Visual Studio still shows stale or blank icons after the upgrade, run `devenv /updateConfiguration` once and restart Visual Studio.
+- Re-test with the extensions that previously caused blank folder icons.
 ```
 
 Categories:
@@ -210,6 +238,10 @@ This extension is for the Visual Studio IDE. It is not a Visual Studio Code icon
 ## Current Limitations
 
 Visual Studio project systems can restrict external icon replacement APIs. When a project system rejects icon updates, the extension logs the limitation instead of changing unrelated behavior.
+
+## Latest Release
+
+Version 1.0.6 fixes icon disappearance after installing or enabling some other Visual Studio extensions. The extension now uses Visual Studio Image Service monikers for hierarchy fallback, avoids repeated icon invalidation updates, rolls back partial moniker updates, and uses a new image catalog GUID to avoid stale image cache or catalog conflicts from older builds.
 
 ## License And Attribution
 

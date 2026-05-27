@@ -6,7 +6,7 @@ namespace MaterialFolderIcons.VisualStudio.Generated
 {
     internal static class MaterialFolderIconMonikers
     {
-        public static readonly Guid ImageCatalogGuid = new Guid("DC88D98F-35E0-4171-BDA1-E8B276C09413");
+        public static readonly Guid ImageCatalogGuid = new Guid("E45580F0-0E9E-40CA-9F97-39517ECBC951");
         public static readonly IReadOnlyDictionary<string, ProjectImageMoniker> Closed = new Dictionary<string, ProjectImageMoniker>(StringComparer.OrdinalIgnoreCase)
         {
             ["acf"] = new ProjectImageMoniker(ImageCatalogGuid, 10001),

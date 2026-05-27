@@ -7,13 +7,15 @@
    - `Identity Publisher`
    - `DisplayName`
    - `Description`
+   - `ReleaseNotes`
    - `Tags`
    - `Icon`
-2. Keep attribution files in the package:
+2. Update `docs\RELEASE_NOTES.md` with the new version, fixes, upgrade notes, and verification details.
+3. Keep attribution files in the package:
    - `THIRD_PARTY_NOTICES.md` in the repository
    - `Resources\License.txt` in the VSIX
-3. In the Marketplace overview, mention that bundled folder icons are derived from Atom Material Icons for JetBrains and link to `https://github.com/AtomMaterialUI/a-file-icon-idea`.
-4. Build and test the VSIX locally:
+4. In the Marketplace overview, mention that bundled folder icons are derived from Atom Material Icons for JetBrains and link to `https://github.com/AtomMaterialUI/a-file-icon-idea`.
+5. Build and test the VSIX locally:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\Generate-FolderIconAssets.ps1
@@ -41,6 +43,7 @@ Use the copy-paste form content in [Marketplace Form Content](MARKETPLACE_FORM.m
 7. Confirm the details populated from `source.extension.vsixmanifest`.
 8. Fill in:
    - Overview
+   - Release notes, using `docs\RELEASE_NOTES.md`
    - Type
    - Categories, up to 3. Use `Coding` if Marketplace does not show `Themes`.
    - Pricing category
@@ -90,10 +93,11 @@ Keep `"private": true` for the first upload if you want to inspect the listing b
 ## Update an Existing Listing
 
 1. Increase `Identity Version` in `source.extension.vsixmanifest`.
-2. Build Release again.
-3. Upload the new VSIX from Marketplace UI, or rerun `VsixPublisher.exe publish`.
-4. Review the listing.
-5. Make it public if the upload was private.
+2. Update `docs\RELEASE_NOTES.md` and the release notes block in [Marketplace Form Content](MARKETPLACE_FORM.md).
+3. Build Release again.
+4. Upload the new VSIX from Marketplace UI, or rerun `VsixPublisher.exe publish`.
+5. Review the listing.
+6. Make it public if the upload was private.
 
 ## Notes
 

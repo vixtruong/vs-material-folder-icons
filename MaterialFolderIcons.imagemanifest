@@ -2,7 +2,7 @@
 <ImageManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
   <Symbols>
     <String Name="Resources" Value="/MaterialFolderIcons.VisualStudio;Component/generatedimagespng" />
-    <Guid Name="MaterialFolderIconsGuid" Value="{DC88D98F-35E0-4171-BDA1-E8B276C09413}" />
+    <Guid Name="MaterialFolderIconsGuid" Value="{E45580F0-0E9E-40CA-9F97-39517ECBC951}" />
     <ID Name="Folder_acf" Value="10001" />
     <ID Name="Folder_acre" Value="10002" />
     <ID Name="Folder_adapter" Value="10003" />

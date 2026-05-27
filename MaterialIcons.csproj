@@ -7,9 +7,9 @@
     <UseWPF>true</UseWPF>
     <AssemblyName>MaterialFolderIcons.VisualStudio</AssemblyName>
     <RootNamespace>MaterialFolderIcons.VisualStudio</RootNamespace>
-    <Version>1.0.5</Version>
-    <AssemblyVersion>1.0.5.0</AssemblyVersion>
-    <FileVersion>1.0.5.0</FileVersion>
+    <Version>1.0.6</Version>
+    <AssemblyVersion>1.0.6.0</AssemblyVersion>
+    <FileVersion>1.0.6.0</FileVersion>
 
     <!-- VSIX settings -->
     <VSSDKBuildToolsAutoSetup>true</VSSDKBuildToolsAutoSetup>
@@ -30,7 +30,6 @@
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="WindowsBase" />
-    <Reference Include="System.Drawing" />
   </ItemGroup>
 
   <ItemGroup>
@@ -60,6 +59,10 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="docs\images\folder-icons-overview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="docs\RELEASE_NOTES.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
