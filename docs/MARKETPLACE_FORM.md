@@ -102,7 +102,7 @@ material-folder-icons-vs
 Version:
 
 ```text
-1.0.6
+1.0.7
 ```
 
 Publisher:
@@ -130,29 +130,24 @@ This extension is built for Visual Studio 2022 17.14+ and Visual Studio 2026, an
 Release notes:
 
 ```markdown
-## 1.0.6 - 2026-05-27
+## 1.0.7 - 2026-06-24
 
 ### Fixed
 
-- Fixed folder icons disappearing after installing or enabling some other Visual Studio extensions.
-- Replaced the hierarchy fallback path that rendered SVG files into cached `HICON` handles with Visual Studio Image Service `ImageMoniker` updates.
-- Stopped reapplying icons from `OnInvalidateIcon`, which could fight with Visual Studio and other extensions when the Solution Explorer icon cache was invalidated.
-- Added rollback logic for hierarchy moniker updates so a folder node is restored if Visual Studio accepts only one side of the GUID/ID pair.
-- Skipped hierarchy fallback updates unless the project hierarchy explicitly advertises `VSHPROPID_SupportsIconMonikers`.
-- Hardened hierarchy traversal against invalid or unexpected item IDs from project systems or other extensions.
+- Fixed folder icons disappearing after Visual Studio Installer Modify, an IDE update, or installing/uninstalling an unrelated extension rebuilt IDE caches.
+- Added a self-healing runtime image catalog that lazily registers packaged PNGs on every IDE process.
+- Retains runtime image handles for the entire IDE process so their monikers remain valid across Solution Explorer and image-cache invalidations.
+- Keeps the packaged image manifest as a compatibility fallback instead of relying on it as the only catalog.
 
 ### Changed
 
-- Bumped the extension and assembly version to `1.0.6`.
-- Changed the Material folder image catalog GUID to `{E45580F0-0E9E-40CA-9F97-39517ECBC951}` to avoid stale Visual Studio image cache entries or possible catalog conflicts from older builds.
-- Kept the CPS project tree provider as the primary icon path for C# SDK-style projects.
-- Removed the unused `SvgIconHandleCache` renderer and the `System.Drawing` project reference.
+- Bumped the extension and assembly version to `1.0.7`.
+- Added ActivityLog diagnostics for runtime registration and manifest fallback.
 
 ### Upgrade Notes
 
-- Uninstall older builds before installing `1.0.6`.
-- If Visual Studio still shows stale or blank icons after the upgrade, run `devenv /updateConfiguration` once and restart Visual Studio.
-- Re-test with the extensions that previously caused blank folder icons.
+- Upgrade directly to `1.0.7`; uninstalling the previous version is not required.
+- Restart Visual Studio once after installation, then re-test the IDE/extension changes that previously required reinstalling this extension.
 ```
 
 Categories:
@@ -241,7 +236,7 @@ Visual Studio project systems can restrict external icon replacement APIs. When 
 
 ## Latest Release
 
-Version 1.0.6 fixes icon disappearance after installing or enabling some other Visual Studio extensions. The extension now uses Visual Studio Image Service monikers for hierarchy fallback, avoids repeated icon invalidation updates, rolls back partial moniker updates, and uses a new image catalog GUID to avoid stale image cache or catalog conflicts from older builds.
+Version 1.0.7 fixes icon disappearance after IDE updates, Visual Studio Installer Modify, and unrelated extension changes. It rebuilds the used icon catalog in every IDE process, retains the runtime image handles, and keeps the packaged manifest only as a compatibility fallback.
 
 ## License And Attribution
 

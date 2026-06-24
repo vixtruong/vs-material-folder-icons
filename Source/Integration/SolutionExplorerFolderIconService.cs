@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using MaterialFolderIcons.VisualStudio.Assets;
-using MaterialFolderIcons.VisualStudio.Generated;
+using MaterialFolderIcons.VisualStudio.Imaging;
 using MaterialFolderIcons.VisualStudio.Logging;
 using MaterialFolderIcons.VisualStudio.Resolution;
 using Microsoft.VisualStudio;
@@ -223,7 +223,7 @@ namespace MaterialFolderIcons.VisualStudio.Integration
 
             try
             {
-                if (!MaterialFolderIconMonikers.Closed.TryGetValue(resolution.IconKey, out var closedMoniker))
+                if (!RuntimeFolderIconMonikers.TryGetClosed(resolution.IconKey, out var closedMoniker))
                 {
                     return false;
                 }
@@ -236,7 +236,7 @@ namespace MaterialFolderIcons.VisualStudio.Integration
                     (int)__VSHPROPID8.VSHPROPID_IconMonikerId);
 
                 var openApplied = false;
-                if (closedApplied && MaterialFolderIconMonikers.Open.TryGetValue(resolution.IconKey, out var openMoniker))
+                if (closedApplied && RuntimeFolderIconMonikers.TryGetOpen(resolution.IconKey, out var openMoniker))
                 {
                     openApplied = TryApplyMoniker(
                         hierarchy,

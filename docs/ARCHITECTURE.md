@@ -49,7 +49,9 @@ This keeps aliases useful without allowing accidental mappings to missing SVG fi
 
 ## Visual Studio Integration
 
-`SolutionExplorerFolderIconService` enumerates loaded project hierarchies, identifies physical and virtual folder nodes, resolves their names, and attempts to apply the packaged image-manifest monikers through public hierarchy properties. It only touches hierarchies that advertise `VSHPROPID_SupportsIconMonikers`, and it rolls back partial GUID/ID updates when a hierarchy rejects one side of a moniker pair.
+`RuntimeFolderIconMonikers` lazily registers each used embedded PNG with Visual Studio's process-local `ImageLibrary`. It keeps every returned `IImageHandle` strongly referenced for the IDE lifetime, because releasing a handle makes its custom moniker eligible for removal. This runtime catalog is the primary source and does not depend on the installer-generated image cache. The packaged image-manifest moniker is retained as a compatibility fallback if the image library is briefly unavailable during startup.
+
+`SolutionExplorerFolderIconService` enumerates loaded project hierarchies, identifies physical and virtual folder nodes, resolves their names, and applies those runtime monikers through public hierarchy properties. It only touches hierarchies that advertise `VSHPROPID_SupportsIconMonikers`, and it rolls back partial GUID/ID updates when a hierarchy rejects one side of a moniker pair.
 
 Microsoft documentation exposes:
 
@@ -61,7 +63,7 @@ Those APIs are stable public hierarchy APIs, but a project hierarchy is still al
 
 ## Open Folder Icons
 
-Open folder SVGs are discovered, rendered into generated PNG resources, and made available through `MaterialFolderIcons.imagemanifest`. The CPS provider and hierarchy fallback apply them through `VSHPROPID_OpenFolderIconMonikerGuid` / `VSHPROPID_OpenFolderIconMonikerId` when the hierarchy accepts icon monikers.
+Open folder SVGs are discovered and rendered into embedded PNG resources. They are registered lazily in the runtime image catalog, with `MaterialFolderIcons.imagemanifest` as fallback. The CPS provider and hierarchy fallback apply them through `VSHPROPID_OpenFolderIconMonikerGuid` / `VSHPROPID_OpenFolderIconMonikerId` when the hierarchy accepts icon monikers.
 
 ## Supported Project Types
 

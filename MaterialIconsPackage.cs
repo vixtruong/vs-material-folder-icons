@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using MaterialFolderIcons.VisualStudio.Assets;
 using MaterialFolderIcons.VisualStudio.Integration;
+using MaterialFolderIcons.VisualStudio.Imaging;
 using MaterialFolderIcons.VisualStudio.Logging;
 using MaterialFolderIcons.VisualStudio.Options;
 using MaterialFolderIcons.VisualStudio.Resolution;
@@ -49,6 +50,19 @@ namespace MaterialFolderIcons.VisualStudio
 
             solutionExplorerFolderIconService = new SolutionExplorerFolderIconService(this, logger);
             await solutionExplorerFolderIconService.InitializeAsync(catalog, resolver, cancellationToken);
+
+            var runtimeImages = RuntimeFolderIconMonikers.GetSnapshot();
+            if (runtimeImages.ClosedIconCount > 0)
+            {
+                await logger.InformationAsync(
+                    $"Runtime image catalog is active with {runtimeImages.ClosedIconCount} closed and {runtimeImages.OpenIconCount} open folder icon(s). " +
+                    "The handles are retained for the IDE process so installer cache rebuilds cannot invalidate these monikers.");
+            }
+            else if (!string.IsNullOrWhiteSpace(runtimeImages.LastError))
+            {
+                await logger.WarningAsync(
+                    $"Runtime image registration was unavailable; using the packaged image manifest fallback: {runtimeImages.LastError}");
+            }
 
             await logger.InformationAsync("CPS project tree icon provider is registered through the VSIX MEF component; hierarchy moniker fallback service is active.");
         }

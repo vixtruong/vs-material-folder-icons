@@ -41,7 +41,8 @@
 21. With the same solution open, install or uninstall another VSIX extension, then restart Visual Studio when prompted.
 22. Reopen the solution and verify previously mapped folders still show Material folder icons.
 23. Create and rename a mapped folder after the extension change, for example `Controllers` -> `Services`.
-24. Verify ActivityLog contains `hierarchy moniker fallback service is active` and the folder icons remain stable after Solution Explorer or another extension invalidates icons.
+24. Verify ActivityLog contains `Runtime image catalog is active` and `hierarchy moniker fallback service is active`.
 25. Run Visual Studio Installer Modify for an unrelated workload or component, then open the same solution again and repeat the mapped-folder verification.
+26. Verify the icons appear without uninstalling or reinstalling Material Folder Icons and ActivityLog reports the runtime catalog again in the new IDE process.
 
 Note: If ActivityLog says mappings were resolved but the project hierarchy did not accept custom icon properties, the tested project system is rejecting external hierarchy icon updates. In that case the extension is loading and resolving correctly, but Visual Studio is keeping its default folder icons.

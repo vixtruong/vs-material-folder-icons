@@ -1,5 +1,24 @@
 # Release Notes
 
+## 1.0.7 - 2026-06-24
+
+### Fixed
+
+- Fixed folder icons disappearing after Visual Studio Installer Modify, an IDE update, or installing/uninstalling an unrelated extension rebuilt the IDE component and image caches.
+- Removed the install-time image manifest as a single point of failure. Each IDE process now lazily registers the packaged PNGs it actually uses with Visual Studio's runtime `ImageLibrary`.
+- Retains every runtime `IImageHandle` for the lifetime of the IDE process, which keeps the generated monikers valid across Solution Explorer refreshes and image-cache invalidations.
+- Uses the packaged `MaterialFolderIcons.imagemanifest` monikers only as a compatibility fallback when runtime registration is temporarily unavailable during startup.
+
+### Diagnostics
+
+- ActivityLog now reports when the self-healing runtime catalog is active and how many closed/open icons it retained.
+- Runtime registration failures are logged explicitly before falling back to the packaged manifest.
+
+### Upgrade Notes
+
+- Upgrade directly to `1.0.7`; uninstalling the previous version first is not required.
+- After installation, restart Visual Studio once. Future IDE updates and unrelated extension changes should not require reinstalling Material Folder Icons.
+
 ## 1.0.6 - 2026-05-27
 
 ### Fixed
@@ -33,4 +52,3 @@
 - Uninstall older builds before installing `1.0.6`.
 - If Visual Studio still shows stale or blank icons after the upgrade, run `devenv /updateConfiguration` once and restart Visual Studio.
 - Re-test with the extensions that previously caused blank folder icons.
-

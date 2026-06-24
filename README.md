@@ -18,7 +18,7 @@ This first pass implements the asset and resolution foundation:
 - Logs initialization, discovery counts, invalid custom mappings, and Visual Studio API limitations to the Visual Studio ActivityLog.
 - Packages the folder SVG directories plus generated PNG image resources into the VSIX.
 
-The current VSIX uses the Visual Studio Image Service for folder icons. It packages generated PNG resources through `MaterialFolderIcons.imagemanifest`, applies custom `ProjectImageMoniker` values through the CPS project tree provider, and uses the same moniker IDs in the hierarchy fallback path when a project hierarchy explicitly supports icon monikers:
+The current VSIX uses the Visual Studio Image Service for folder icons. On every IDE process it lazily registers the packaged PNG resources in the runtime `ImageLibrary` and retains the returned image handles for the whole process. This self-heals the icon catalog after Visual Studio Installer or an unrelated extension rebuilds IDE caches. `MaterialFolderIcons.imagemanifest` remains packaged as a compatibility fallback. Both the CPS project tree provider and hierarchy fallback consume the resulting `ProjectImageMoniker` values:
 
 - `VSHPROPID_IconMonikerGuid`
 - `VSHPROPID_IconMonikerId`

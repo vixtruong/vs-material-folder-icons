@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Composition;
 using MaterialFolderIcons.VisualStudio.Assets;
-using MaterialFolderIcons.VisualStudio.Generated;
+using MaterialFolderIcons.VisualStudio.Imaging;
 using MaterialFolderIcons.VisualStudio.Resolution;
 using Microsoft.VisualStudio.ProjectSystem;
 
@@ -34,12 +34,12 @@ namespace MaterialFolderIcons.VisualStudio.Cps
                 return;
             }
 
-            if (MaterialFolderIconMonikers.Closed.TryGetValue(resolution.IconKey, out var closedMoniker))
+            if (RuntimeFolderIconMonikers.TryGetClosed(resolution.IconKey, out var closedMoniker))
             {
                 propertyValues.Icon = closedMoniker;
             }
 
-            if (MaterialFolderIconMonikers.Open.TryGetValue(resolution.IconKey, out var openMoniker))
+            if (RuntimeFolderIconMonikers.TryGetOpen(resolution.IconKey, out var openMoniker))
             {
                 propertyValues.ExpandedIcon = openMoniker;
             }
